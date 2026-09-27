@@ -137,7 +137,7 @@ ul {
     right: 0;
     left: 0;
     z-index: 1000;
-    background: linear-gradient(180deg, rgba(20, 27, 25, 0.46) 0%, rgba(20, 27, 25, 0.18) 68%, transparent 100%);
+    background: transparent;
     color: #fff;
 }
 
@@ -1551,4 +1551,250 @@ ul {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+/* V2：黛青、朱砂、宣纸白与铜金的正式配色 */
+:root {
+    --brick: #9e3d32;
+    --brick-deep: #243b3b;
+    --brick-dark: #172b2b;
+    --vermilion: #9e3d32;
+    --gold: #b99762;
+    --gold-light: #e0c994;
+    --rice: #f5f1e8;
+    --paper: #fbfaf5;
+    --ink: #27312f;
+    --muted: #66706b;
+    --jade: #31584a;
+    --line: rgba(36, 59, 59, 0.17);
+    --shadow: 0 20px 55px rgba(25, 47, 44, 0.13);
+}
+
+body {
+    background: var(--rice);
+    color: var(--ink);
+}
+
+body::before {
+    background-image:
+        linear-gradient(rgba(36, 59, 59, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(36, 59, 59, 0.025) 1px, transparent 1px);
+}
+
+.site-header {
+    background: linear-gradient(180deg, rgba(20, 43, 42, 0.86) 0%, rgba(20, 43, 42, 0.48) 67%, transparent 100%);
+}
+
+.brand {
+    text-shadow: 0 2px 12px rgba(10, 28, 27, 0.55);
+}
+
+.header-search {
+    border-color: rgba(224, 201, 148, 0.68);
+    background: rgba(19, 42, 40, 0.38);
+}
+
+.nav h3 > a {
+    color: rgba(255, 255, 255, 0.94);
+}
+
+.nav > .active h3 > a,
+.nav > .nLi:hover h3 > a,
+.nav > .nLi:focus-within h3 > a {
+    color: var(--gold-light);
+}
+
+.nav .sub {
+    background: rgba(18, 34, 33, 0.68);
+}
+
+.nav .sub a:hover,
+.nav .sub a:focus-visible {
+    background: var(--gold-light);
+    color: #243532;
+}
+
+.hero,
+.flexslider {
+    background: #293f3d;
+}
+
+.hero-shade {
+    background:
+        linear-gradient(180deg, rgba(18, 42, 40, 0.58) 0%, rgba(18, 42, 40, 0.04) 48%, rgba(18, 42, 40, 0.54) 100%),
+        linear-gradient(90deg, rgba(18, 42, 40, 0.26), transparent 62%);
+}
+
+.flexslider .slides > li:nth-child(2) .hero-shade {
+    background:
+        linear-gradient(180deg, rgba(18, 42, 40, 0.27) 0%, rgba(18, 42, 40, 0.01) 48%, rgba(18, 42, 40, 0.3) 100%),
+        linear-gradient(90deg, rgba(18, 42, 40, 0.12), transparent 62%);
+}
+
+.section-heading {
+    border-bottom-color: rgba(185, 151, 98, 0.72);
+}
+
+.section-heading h2,
+.profile-copy h2,
+.direction-grid h3 {
+    color: #243b3b;
+}
+
+.section-heading h2 .icon {
+    color: var(--vermilion);
+}
+
+.updates {
+    background: #f8f7f2;
+}
+
+.feature-image {
+    border: 1px solid rgba(36, 59, 59, 0.13);
+    background: #eef0eb;
+}
+
+.feature-body h3 {
+    color: #273a37;
+}
+
+.update-list > a {
+    border-color: #d8dfd9;
+    background: #eef1ed;
+}
+
+.update-list > a:hover,
+.update-list > a:focus-visible {
+    background: #dfe8e0;
+    color: var(--vermilion);
+}
+
+.update-date {
+    background: #31584a;
+    color: #fffdf7;
+}
+
+.notice-band {
+    background: #edf1ed;
+}
+
+.notice-title {
+    background: #243b3b;
+    color: #f7f2e7;
+}
+
+.notice-title .icon,
+.notice-title small {
+    color: var(--gold-light);
+}
+
+.notice-items a {
+    border-color: #d3ddd5;
+    background: rgba(255, 255, 255, 0.82);
+    color: #33413d;
+}
+
+.notice-items a:hover,
+.notice-items a:focus-visible {
+    background: #dfe8e0;
+    color: #243b3b;
+}
+
+.notice-date {
+    border-right-color: #b8c8bc;
+    color: var(--vermilion);
+}
+
+.lab-profile {
+    background: #fbfaf5;
+}
+
+.profile-visual::before {
+    background: #b99762;
+}
+
+.profile-label {
+    border-left-color: var(--gold-light);
+    background: #243b3b;
+}
+
+.profile-copy h2::after {
+    background: var(--vermilion);
+}
+
+.profile-copy p {
+    color: #4f5b57;
+}
+
+.direction-grid article {
+    border-color: #dce1dc;
+    border-top-color: var(--vermilion);
+    background: #fffefa;
+    box-shadow: 0 10px 26px rgba(32, 57, 52, 0.07);
+}
+
+.direction-grid article:hover {
+    border-color: #9eb3a6;
+    background: #f0f4f0;
+}
+
+.direction-grid article > a > span {
+    color: var(--gold);
+}
+
+.site-footer {
+    background:
+        linear-gradient(rgba(26, 54, 50, 0.83), rgba(20, 44, 42, 0.91)),
+        url("./xmu-furong-lake.jpg") center 48% / cover no-repeat;
+    color: #f5f2e9;
+}
+
+.footer-pattern {
+    background:
+        linear-gradient(135deg, #9e3d32 25%, transparent 25%) -6px 0 / 12px 12px,
+        linear-gradient(225deg, #9e3d32 25%, transparent 25%) -6px 0 / 12px 12px,
+        #b99762;
+}
+
+.footer-contact h2,
+.footer-links h2,
+.footer-contact p {
+    color: #f6f1e6;
+}
+
+.footer-contact .icon {
+    color: var(--gold-light);
+}
+
+.footer-link-list a {
+    border-color: rgba(224, 201, 148, 0.55);
+    background: rgba(248, 246, 237, 0.11);
+    box-shadow: 0 7px 18px rgba(8, 29, 27, 0.2);
+    color: #fffdf7;
+}
+
+.footer-link-list a:hover,
+.footer-link-list a:focus-visible {
+    border-color: var(--gold-light);
+    background: var(--gold-light);
+    color: #243b3b;
+}
+
+.footer-link-list .icon {
+    color: var(--gold-light);
+}
+
+.footer-link-list a:hover .icon,
+.footer-link-list a:focus-visible .icon {
+    color: #243b3b;
+}
+
+.footer-bottom {
+    border-top-color: rgba(224, 201, 148, 0.25);
+    background: rgba(14, 35, 33, 0.72);
+}
+
+.footer-bottom .commonWidth,
+.footer-bottom a {
+    color: #e9e4d8;
 }
