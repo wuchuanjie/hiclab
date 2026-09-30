@@ -29,10 +29,9 @@
             label: "人才队伍",
             href: "people.html",
             children: [
-                { label: "研究员", href: "people.html?category=researcher" },
-                { label: "副研究员", href: "people.html?category=associate" },
-                { label: "助理研究员", href: "people.html?category=assistant" },
-                { label: "博士后", href: "people.html?category=postdoc" }
+                { label: "教授", href: "people.html?category=professor" },
+                { label: "副教授", href: "people.html?category=associate-professor" },
+                { label: "助理教授", href: "people.html?category=assistant-professor" }
             ]
         },
         {
@@ -61,10 +60,9 @@
         { category: "研究团队", title: "闽台方言智能计算团队", text: "闽南方言语料、语音识别、语音合成、大模型与智能交互。", href: "teams.html#team-language" },
         { category: "研究团队", title: "传统建筑与工艺遗产数字化团队", text: "数字测绘、精细建模、修复仿真和活化传承。", href: "teams.html#team-architecture" },
         { category: "研究团队", title: "非遗数字资产化与智能创意设计团队", text: "数字资产管理、智能内容生成与文化创意设计。", href: "teams.html#team-creative" },
-        { category: "人才队伍", title: "研究员", text: "实验室研究员与教授队伍。", href: "people.html?category=researcher" },
-        { category: "人才队伍", title: "副研究员", text: "实验室副研究员与副教授队伍。", href: "people.html?category=associate" },
-        { category: "人才队伍", title: "助理研究员", text: "实验室助理研究员与助理教授队伍。", href: "people.html?category=assistant" },
-        { category: "人才队伍", title: "博士后", text: "实验室博士后人员栏目。", href: "people.html?category=postdoc" },
+        { category: "人才队伍", title: "教授", text: "实验室教授队伍。", href: "people.html?category=professor" },
+        { category: "人才队伍", title: "副教授", text: "实验室副教授队伍。", href: "people.html?category=associate-professor" },
+        { category: "人才队伍", title: "助理教授", text: "实验室助理教授队伍。", href: "people.html?category=assistant-professor" },
         { category: "科研成果", title: "专利", text: "实验室授权专利和专利申请成果栏目。", href: "achievements.html?category=patent" },
         { category: "科研成果", title: "获奖", text: "实验室团队、项目和作品获奖成果栏目。", href: "achievements.html?category=award" },
         { category: "科研成果", title: "软件著作权", text: "实验室软件著作权成果栏目。", href: "achievements.html?category=software" },
@@ -161,8 +159,10 @@
             const buttons = Array.from(group.querySelectorAll("[data-filter]"));
             const targetSelector = group.dataset.filterTargets;
             const targets = Array.from(document.querySelectorAll(targetSelector));
-            const param = new URLSearchParams(window.location.search).get("category");
-            let current = param && buttons.some(function (button) { return button.dataset.filter === param; }) ? param : (buttons[0] ? buttons[0].dataset.filter : "all");
+            const rawParam = new URLSearchParams(window.location.search).get("category");
+            const legacyCategories = { researcher: "professor", associate: "associate-professor", assistant: "assistant-professor" };
+            const param = legacyCategories[rawParam] || rawParam;
+            let current = param && buttons.some(function (button) { return button.dataset.filter === param; }) ? param : (group.dataset.defaultFilter || (buttons[0] ? buttons[0].dataset.filter : "all"));
 
             function apply(value) {
                 current = value;
