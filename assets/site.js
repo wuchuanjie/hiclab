@@ -23,15 +23,27 @@
                 { label: "通知公告", href: "notices.html" }
             ]
         },
-        { key: "teams", label: "研究团队", href: "teams.html" },
+        {
+            key: "teams",
+            label: "研究团队",
+            href: "teams.html",
+            children: [
+                { label: "数字媒体计算中心", href: "teams/digital-media-computing.html" },
+                { label: "建筑技艺数字化保护与营建智慧解析研究组", href: "teams/architectural-heritage.html" },
+                { label: "闽台传统建筑数字化与气候适应性研究课题组", href: "teams/climate-adaptive-architecture.html" },
+                { label: "智能计算与物理仿真研究组", href: "teams/intelligent-computing-simulation.html" },
+                { label: "Human+课题组", href: "teams/human-plus.html" }
+            ]
+        },
         {
             key: "people",
             label: "人才队伍",
             href: "people.html",
             children: [
-                { label: "教授", href: "people.html?category=professor" },
-                { label: "副教授", href: "people.html?category=associate-professor" },
-                { label: "助理教授", href: "people.html?category=assistant-professor" }
+                { label: "教授", href: "people.html#professor" },
+                { label: "副教授", href: "people.html#associate-professor" },
+                { label: "助理教授", href: "people.html#assistant-professor" },
+                { label: "博士后及工程师", href: "people.html#other" }
             ]
         },
         {
@@ -56,13 +68,16 @@
         { category: "研究方向", title: "闽台非遗文化智能处理", text: "方言语音、表演动作、文化知识与多模态内容的智能分析、生成和交互。", href: "research-direction-intelligent-processing.html" },
         { category: "实验室动态", title: "新闻动态", text: "实验室项目、会议、媒体报道、调研与两岸民宿标准等新闻。", href: "news.html" },
         { category: "实验室动态", title: "通知公告", text: "会议程序册与学术年会通知。", href: "notices.html" },
-        { category: "研究团队", title: "闽台表演艺术数字化与沉浸式叙事创新团队", text: "戏曲、音乐、木偶，多模态采集、数字重建和沉浸叙事。", href: "teams.html#team-performance" },
-        { category: "研究团队", title: "闽台方言智能计算团队", text: "闽南方言语料、语音识别、语音合成、大模型与智能交互。", href: "teams.html#team-language" },
-        { category: "研究团队", title: "传统建筑与工艺遗产数字化团队", text: "数字测绘、精细建模、修复仿真和活化传承。", href: "teams.html#team-architecture" },
-        { category: "研究团队", title: "非遗数字资产化与智能创意设计团队", text: "数字资产管理、智能内容生成与文化创意设计。", href: "teams.html#team-creative" },
-        { category: "人才队伍", title: "教授", text: "实验室教授队伍。", href: "people.html?category=professor" },
-        { category: "人才队伍", title: "副教授", text: "实验室副教授队伍。", href: "people.html?category=associate-professor" },
-        { category: "人才队伍", title: "助理教授", text: "实验室助理教授队伍。", href: "people.html?category=assistant-professor" },
+        { category: "研究团队", title: "研究团队总览", text: "实验室各研究组介绍与成员。", href: "teams.html" },
+        { category: "研究团队", title: "数字媒体计算中心", text: "姚俊峰教授负责，数据挖掘与知识图谱、智能语言信息处理、计算机图形学与AIGC、社交机器人与人机交互、医学图像与视觉感知。", href: "teams/digital-media-computing.html" },
+        { category: "研究团队", title: "建筑技艺数字化保护与营建智慧解析研究组", text: "传统建筑营造智慧、空间形制、聚落形态与遗产活化利用，数字测绘、三维重建、BIM、知识图谱与数字孪生。", href: "teams/architectural-heritage.html" },
+        { category: "研究团队", title: "闽台传统建筑数字化与气候适应性研究课题组", text: "石峰教授领衔，传统建筑谱系、气候适应性、建筑性能模拟与文化遗产保护更新。", href: "teams/climate-adaptive-architecture.html" },
+        { category: "研究团队", title: "智能计算与物理仿真研究组", text: "智能优化、多物理场神经算子、物理信息驱动的生成模型与多媒体学习。", href: "teams/intelligent-computing-simulation.html" },
+        { category: "研究团队", title: "Human+课题组", text: "郭诗辉教授团队，智能柔性穿戴人体动作捕捉、自然人机交互与具身智能。", href: "teams/human-plus.html" },
+        { category: "人才队伍", title: "教授", text: "实验室教授队伍。", href: "people.html#professor" },
+        { category: "人才队伍", title: "副教授", text: "实验室副教授队伍。", href: "people.html#associate-professor" },
+        { category: "人才队伍", title: "助理教授", text: "实验室助理教授队伍。", href: "people.html#assistant-professor" },
+        { category: "人才队伍", title: "博士后及工程师", text: "实验室博士后及工程师队伍。", href: "people.html#other" },
         { category: "科研成果", title: "专利", text: "实验室授权专利和专利申请成果栏目。", href: "achievements.html?category=patent" },
         { category: "科研成果", title: "获奖", text: "实验室团队、项目和作品获奖成果栏目。", href: "achievements.html?category=award" },
         { category: "科研成果", title: "软件著作权", text: "实验室软件著作权成果栏目。", href: "achievements.html?category=software" },
@@ -85,9 +100,29 @@
         { category: "新闻动态", title: "福建省人工智能学会2022年学术年会暨首届闽台非遗数字化保护与智能处理会议在龙岩市顺利召开", text: "福建省人工智能学会2022年学术年会暨首届闽台非遗数字化保护与智能处理会议于2022年12月9-10日在龙岩市召开，会议主题为“人工智能赋能文旅”，采用“线上+线下”相结合的形式举行。", href: "news/20221215.html" },
         { category: "通知公告", title: "福建省人工智能学会2024年学术年会暨第三届闽台非遗数字化保护与智能处理会议程序册", text: "福建省人工智能学会2024年学术年会暨第三届闽台非遗数字化保护与智能处理会议程序册", href: "notices/20241129.html" },
         { category: "通知公告", title: "关于召开“福建省人工智能学会2024年学术年会暨第三届闽台非遗数字化保护与智能处理会议”的通知", text: "为了更好地促进我省人工智能领域的科技创新，促进智能科学与技术人才队伍的成长，兹定于2024年11月29日-2024年12月1日在厦门召开“福建省人工智能学会2024年学术年会”，会议的主题是“混合智能”；同期举办“第三届闽台非遗数字化保护与智能处理会议”。", href: "notices/20241123.html" },
-        { category: "人才队伍", title: "史晓东", text: "实验室主任，厦门大学信息学院教授。", href: "people/shi-xiaodong.html" },
-        { category: "人才队伍", title: "姚俊峰", text: "实验室副主任，厦门大学电影学院教授。", href: "people/yao-junfeng.html" },
-        { category: "人才队伍", title: "王量量", text: "实验室副主任，厦门大学建筑与土木工程学院教授。", href: "people/wang-liangliang.html" }
+        { category: "人才队伍", title: "姚俊峰", text: "教授；博士生导师，社交型机器人、计算机图形学、数字孪生；数字化真人、虚拟现实技术开发与应用、智能算法及过程仿真。", href: "people.html#person-yao-junfeng" },
+        { category: "人才队伍", title: "王量量", text: "教授，传统聚落保护研究与乡村营建、建筑遗产数字保护、城市设计与城市更新", href: "people.html#person-wang-liangliang" },
+        { category: "人才队伍", title: "Nadia Magnenat Thalmann", text: "教授，虚拟人、社会机器人；三维服装、头发与手势建模、情绪建模、医学模拟。", href: "people.html#person-nadia-thalmann" },
+        { category: "人才队伍", title: "吴清强", text: "教授；博士生导师，人工智能、知识图谱、影视制作智能技术、大数据分析、软件工程。", href: "people.html#person-wu-qingqiang" },
+        { category: "人才队伍", title: "刘昆宏", text: "教授；博士生导师，机器学习、深度合成技术、生物信息学；数据挖掘、进化计算、区块链。", href: "people.html#person-liu-kunhong" },
+        { category: "人才队伍", title: "苏劲松", text: "教授；博士生导师，自然语言处理、大语言模型、AI for Sciences、机器翻译。", href: "people.html#person-su-jinsong" },
+        { category: "人才队伍", title: "石峰", text: "教授，绿色建筑的气候响应设计，亚热带滨海城市环境研究，闽台传统建筑谱系研究", href: "people.html#person-shi-feng" },
+        { category: "人才队伍", title: "江敏", text: "教授，学习驱动的演化优化；神经符号知识发现与多物理场仿真；AI for Science", href: "people.html#person-jiang-min" },
+        { category: "人才队伍", title: "郭诗辉", text: "教授，基于智能传感服装的人体运动捕捉、分析与交互，具身智能", href: "people.html#person-guo-shihui" },
+        { category: "人才队伍", title: "陈毅东", text: "教授，人工智能，自然语言处理，机器翻译，手语翻译，信息抽取，情感分析", href: "people.html#person-chen-yidong" },
+        { category: "人才队伍", title: "王晓黎", text: "副教授；硕士生导师，图数据索引与查询、医疗健康大数据分析、大语言模型及其领域应用；知识图谱与问答系统。", href: "people.html#person-wang-xiaoli" },
+        { category: "人才队伍", title: "洪清启", text: "副教授；博士生导师，计算机视觉、数字媒体技术、机器学习、医学图像处理、计算机图形学。", href: "people.html#person-hong-qingqi" },
+        { category: "人才队伍", title: "龙飞", text: "副教授；硕士生导师，计算机视觉、模式识别、图像处理。", href: "people.html#person-long-fei" },
+        { category: "人才队伍", title: "佘莹莹", text: "副教授；硕士生导师，人机交互、虚拟现实、社交机器人、跨媒体智能、游戏开发。", href: "people.html#person-she-yingying" },
+        { category: "人才队伍", title: "陈俐燕", text: "副教授；硕士生导师，影视 AI 技术（AIGC、智能体）、虚拟现实（AR、VR、XR）、三维动画、数字人、语音翻译与合成。", href: "people.html#person-chen-liyan" },
+        { category: "人才队伍", title: "杨雅正", text: "助理教授；硕士生导师，自然语言处理、大模型、非结构化数据预训练、语音大模型。", href: "people.html#person-yang-yazheng" },
+        { category: "人才队伍", title: "吴灈杭", text: "助理教授，城乡历史文化遗产保护；闽台海洋商贸遗产保护；历史社区更新", href: "people.html#person-wu-quhang" },
+        { category: "人才队伍", title: "张园林", text: "助理教授，乡村生活空间转型，乡村人居环境与休闲空间，乡村治理等", href: "people.html#person-zhang-yuanlin" },
+        { category: "人才队伍", title: "王贞众", text: "助理教授，智能优化算法，图神经网络，多模态大语言模型以及它们在物理仿真上的应用。", href: "people.html#person-wang-zhenzhong" },
+        { category: "人才队伍", title: "黄健明", text: "博士后，图神经网络、生成式人工智能、计算机图形学。", href: "people.html#person-huang-jianming" },
+        { category: "人才队伍", title: "张延坤", text: "工程师，软件工程方法、软件测试；软件工程与数字媒体技术实验教学、实验室仪器设备使用及维护。", href: "people.html#person-zhang-yankun" },
+        { category: "人才队伍", title: "陈心怡", text: "助理教授，传统建筑与天文历法、传统营建智慧的当代转译与应用、闽南地域建筑", href: "people.html#person-chen-xinyi" },
+        { category: "人才队伍", title: "曾华琳", text: "讲师；实验室秘书，自然语言理解与生成、多模态机器翻译、语音大模型及可信推理。", href: "people.html#person-zeng-hualin" }
     ];
 
     function icon(path) {
@@ -276,8 +311,32 @@
         apply();
     }
 
+    // 侧边栏锚点导航：高亮当前滚动到的模块。
+    function initSectionNav() {
+        const links = Array.from(document.querySelectorAll('.side-nav a[href^="#"]'));
+        const sections = links.map(function (link) { return document.getElementById(link.getAttribute("href").slice(1)); });
+        if (!links.length || sections.some(function (section) { return !section; })) return;
+
+        function update() {
+            let index = 0;
+            sections.forEach(function (section, i) {
+                if (section.getBoundingClientRect().top <= 120) index = i;
+            });
+            // 页面已滚到底时，较短的末尾模块无法到达顶部：优先高亮地址中指定且可见的模块。
+            const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+            const hashIndex = sections.findIndex(function (section) { return "#" + section.id === window.location.hash; });
+            if (atBottom && hashIndex > index && sections[hashIndex].getBoundingClientRect().top < window.innerHeight) index = hashIndex;
+            links.forEach(function (link, i) { link.classList.toggle("is-current", i === index); });
+        }
+
+        window.addEventListener("scroll", update, { passive: true });
+        window.addEventListener("hashchange", update);
+        update();
+    }
+
     renderHeader();
     renderFooter();
+    initSectionNav();
     initCategoryFilters();
     initPublicationSearch();
     initGlobalSearch();
