@@ -102,7 +102,6 @@
         { category: "通知公告", title: "关于召开“福建省人工智能学会2024年学术年会暨第三届闽台非遗数字化保护与智能处理会议”的通知", text: "为了更好地促进我省人工智能领域的科技创新，促进智能科学与技术人才队伍的成长，兹定于2024年11月29日-2024年12月1日在厦门召开“福建省人工智能学会2024年学术年会”，会议的主题是“混合智能”；同期举办“第三届闽台非遗数字化保护与智能处理会议”。", href: "notices/20241123.html" },
         { category: "人才队伍", title: "姚俊峰", text: "教授；博士生导师，社交型机器人、计算机图形学、数字孪生；数字化真人、虚拟现实技术开发与应用、智能算法及过程仿真。", href: "people.html#person-yao-junfeng" },
         { category: "人才队伍", title: "王量量", text: "教授，传统聚落保护研究与乡村营建、建筑遗产数字保护、城市设计与城市更新", href: "people.html#person-wang-liangliang" },
-        { category: "人才队伍", title: "Nadia Magnenat Thalmann", text: "教授，虚拟人、社会机器人；三维服装、头发与手势建模、情绪建模、医学模拟。", href: "people.html#person-nadia-thalmann" },
         { category: "人才队伍", title: "吴清强", text: "教授；博士生导师，人工智能、知识图谱、影视制作智能技术、大数据分析、软件工程。", href: "people.html#person-wu-qingqiang" },
         { category: "人才队伍", title: "刘昆宏", text: "教授；博士生导师，机器学习、深度合成技术、生物信息学；数据挖掘、进化计算、区块链。", href: "people.html#person-liu-kunhong" },
         { category: "人才队伍", title: "苏劲松", text: "教授；博士生导师，自然语言处理、大语言模型、AI for Sciences、机器翻译。", href: "people.html#person-su-jinsong" },
