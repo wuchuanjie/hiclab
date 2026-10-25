@@ -1112,8 +1112,18 @@ a.person-photo:focus-visible img {
     font-weight: 600;
 }
 
+.person-card .person-group {
+    width: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    color: var(--brick);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
 .person-card .person-group a {
-    color: #62554c;
+    color: inherit;
 }
 
 .person-card .person-email a {
@@ -1121,7 +1131,10 @@ a.person-photo:focus-visible img {
 }
 
 .person-card .person-group a:hover,
-.person-card .person-group a:focus-visible,
+.person-card .person-group a:focus-visible {
+    color: var(--vermilion);
+}
+
 .person-card .person-email a {
     color: var(--brick);
 }
