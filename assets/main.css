@@ -1070,26 +1070,22 @@ ul {
     position: relative;
     overflow: hidden;
     background:
-        linear-gradient(rgba(255, 246, 216, 0.64), rgba(234, 207, 158, 0.72)),
+        linear-gradient(rgba(42, 18, 12, 0.55), rgba(28, 10, 8, 0.72)),
         url("./xmu-furong-lake.jpg") center 48% / cover no-repeat;
-    color: #49382f;
+    color: rgba(255, 243, 226, 0.82);
 }
 
 .footer-pattern {
-    height: 8px;
-    background:
-        linear-gradient(135deg, #c98462 25%, transparent 25%) -6px 0 / 12px 12px,
-        linear-gradient(225deg, #c98462 25%, transparent 25%) -6px 0 / 12px 12px,
-        #efd5aa;
-    opacity: 0.88;
+    height: 3px;
+    background: linear-gradient(90deg, var(--vermilion), var(--gold) 55%, var(--gold-light));
 }
 
 .footer-main {
     display: grid;
-    grid-template-columns: 300px minmax(0, 1fr);
-    gap: 68px;
+    grid-template-columns: 340px minmax(0, 1fr);
+    gap: 80px;
     align-items: start;
-    padding: 48px 0 42px;
+    padding: 54px 0 48px;
 }
 
 .footer-brand {
@@ -1121,83 +1117,106 @@ ul {
 
 .footer-contact h2,
 .footer-links h2 {
-    margin-bottom: 18px;
-    color: var(--brick-deep);
+    position: relative;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    color: #f6e7c8;
     font-family: "Songti SC", "STSong", serif;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.footer-contact h2::after,
+.footer-links h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 28px;
+    height: 2px;
+    background: var(--gold);
+    content: "";
 }
 
 .footer-contact p {
-    margin-bottom: 10px;
-    color: #3f2f28;
-    font-size: 16px;
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: rgba(255, 243, 226, 0.82);
+    font-size: 15px;
 }
 
 .footer-contact .icon {
-    width: 20px;
-    color: var(--brick);
+    flex: none;
+    width: 18px;
+    color: var(--gold-light);
 }
 
 .footer-link-list {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0 44px;
 }
 
 .footer-link-list a {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 76px;
+    justify-content: space-between;
+    gap: 12px;
     margin: 0;
-    padding: 12px 14px;
-    border: 2px solid rgba(112, 57, 40, 0.38);
-    background: rgba(255, 252, 242, 0.88);
-    box-shadow: 0 7px 18px rgba(75, 42, 28, 0.12);
-    color: var(--brick-deep);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.45;
-    text-align: center;
-    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 243, 226, 0.14);
+    color: rgba(255, 243, 226, 0.86);
+    font-size: 15px;
+    line-height: 1.5;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .footer-link-list a:hover,
 .footer-link-list a:focus-visible {
-    border-color: var(--brick);
-    background: #fffaf0;
-    color: var(--brick);
-    transform: translateY(-2px);
+    border-color: rgba(217, 166, 62, 0.7);
+    color: var(--gold-light);
 }
 
 .footer-link-list .icon {
-    width: 15px;
-    height: 15px;
-    margin-left: 7px;
-    color: #a34d37;
-    font-size: 15px;
+    flex: none;
+    width: 14px;
+    height: 14px;
+    color: var(--gold);
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.footer-link-list a:hover .icon,
+.footer-link-list a:focus-visible .icon {
+    transform: translateX(3px);
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(105, 60, 41, 0.18);
-    background: rgba(255, 248, 231, 0.8);
+    border-top: 1px solid rgba(255, 243, 226, 0.1);
+    background: rgba(0, 0, 0, 0.24);
 }
 
 .footer-bottom .commonWidth {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 60px;
+    min-height: 56px;
     gap: 28px;
-    color: #59463b;
-    font-size: 14px;
+    color: rgba(255, 243, 226, 0.56);
+    font-size: 13px;
 }
 
 .footer-bottom a {
-    color: var(--brick);
+    color: var(--gold-light);
     white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.footer-bottom a:hover,
+.footer-bottom a:focus-visible {
+    color: #fff;
 }
 
 /* Responsive layout */
