@@ -1291,7 +1291,7 @@ a.person-photo:focus-visible img {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .publication-table:not(:has(.publication-item:not([hidden]))) {
@@ -1317,7 +1317,8 @@ a.person-photo:focus-visible img {
 .publication-table td {
     padding: 16px;
     border-bottom: 1px solid var(--line);
-    color: var(--ink);
+    color: #1f1814;
+    font-weight: 500;
     vertical-align: top;
 }
 
@@ -1331,14 +1332,17 @@ a.person-photo:focus-visible img {
 }
 
 .publication-year {
-    color: #a15a45;
+    color: var(--brick);
     font-family: Georgia, serif;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .publication-table .publication-title {
+    color: #140e0b;
     font-family: "Songti SC", STSong, serif;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 1.6;
 }
 
