@@ -1,0 +1,777 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i107q5of",
+    "id": "i107q5of",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout15.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "黄橙色",
+    "colors": {
+      "accent1": "#F0A22E",
+      "accent2": "#A5644E",
+      "accent3": "#B58B80",
+      "accent4": "#C3986D",
+      "accent5": "#A19574",
+      "accent6": "#C17529",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#4E3B30",
+      "lt2": "#FBEEC9",
+      "hlink": "#AD1F1F",
+      "folHlink": "#FFC42F"
+    },
+    "fontScheme": {
+      "name": "Edge",
+      "majorFont": {
+        "latinTypeface": "Garamond",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Garamond",
+      "Songti SC",
+      "楷体"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout15.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/4",
+          "id": "4",
+          "name": "文本框 3",
+          "bbox": [
+            1100.67,
+            637.4,
+            32.53,
+            38.67
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "wrap": "none",
+            "autoFit": "resizeShapeToFitText"
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "backgroundColor": "bg1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1031",
+          "id": "1031",
+          "name": "图片 5",
+          "bbox": [
+            1041.42,
+            27.31,
+            176.13,
+            75.59
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.23137,
+            "right": 0.22634,
+            "bottom": 0.20135
+          },
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1026",
+          "id": "1026",
+          "name": "Rectangle 2",
+          "bbox": [
+            65.56,
+            27.33,
+            1152,
+            60.5
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版标题样式",
+          "textPreview": "单击此处编辑母版标题样式",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版标题样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版标题样式"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1027",
+          "id": "1027",
+          "name": "Rectangle 3",
+          "bbox": [
+            65.56,
+            125.67,
+            1152,
+            529.17
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版文本样式\n第二级\n第三级\n第四级\n第五级",
+          "textPreview": "单击此处编辑母版文本样式 | 第二级 | 第三级 | 第四级 | 第五级",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版文本样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版文本样式"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "第二级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第二级"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "第三级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第三级"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "第四级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第四级"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "第五级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第五级"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1029",
+          "id": "1029",
+          "name": "Line 9",
+          "bbox": [
+            65.56,
+            103,
+            1148.89,
+            0
+          ],
+          "geometry": "line",
+          "lineWidth": 8
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1030",
+          "id": "1030",
+          "name": "Text Box 11",
+          "bbox": [
+            297.33,
+            662.33,
+            473.78,
+            38.5
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "autoFit": "resizeShapeToFitText"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 6,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1032",
+          "id": "1032",
+          "name": "图片 1",
+          "bbox": [
+            1048.2,
+            27.33,
+            62.73,
+            62.73
+          ],
+          "contentType": "image/jpeg",
+          "asset": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgbulwnm",
+      "id": "2",
+      "name": "标题 1",
+      "bbox": [
+        65.56,
+        27.33,
+        1152,
+        60.5
+      ],
+      "text": "当前想法",
+      "textPreview": "当前想法",
+      "resolvedFontSize": 53.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 53.33,
+        "typeface": "楷体",
+        "color": "tx2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前想法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前想法",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前想法",
+              "color": "#0080FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cf2tcr61",
+      "id": "3",
+      "name": "内容占位符 2",
+      "bbox": [
+        65.56,
+        125.67,
+        1152,
+        529.17
+      ],
+      "text": "拟提出的方法\n1. 将技能转化为步骤依赖图\n记录前置条件、预期结果、输入输出对象和重复执行风险\n第一版可以先采用少量人工整理的技能，先验证接入机制\n2. 回溯对齐此前完成的工作\n结合工具调用、返回的对象 ID 和当前环境查询\n步骤状态分为已证实完成、尚未完成和不确定\n预期结果成立且对象匹配，才能判定该步骤已完成\n",
+      "textPreview": "拟提出的方法 | 1. 将技能转化为步骤依赖图 | 记录前置条件、预期结果、输入输出对象和重复执行风险 | 第一版可以先采用少量人工整理的技能，先验证接入机制 | 2. 回溯对齐此前完成的工作 | 结合工具调用、返回的对象 ID 和当前环境查询 | 步骤状态分为已证实完成、...",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "楷体",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 17,
+        "lines": [
+          {
+            "index": 1,
+            "text": "拟提出的方法"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "1. 将技能转化为步骤依赖图"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "记录前置条件、预期结果、输入输出对象和重复执行风险"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "第一版可以先采用少量人工整理的技能，先验证接入机制"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "2. 回溯对齐此前完成的工作"
+          },
+          {
+            "index": 10,
+            "text": ""
+          },
+          {
+            "index": 11,
+            "text": "结合工具调用、返回的对象 ID 和当前环境查询"
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "步骤状态分为已证实完成、尚未完成和不确定"
+          },
+          {
+            "index": 14,
+            "text": ""
+          },
+          {
+            "index": 15,
+            "text": "预期结果成立且对象匹配，才能判定该步骤已完成"
+          },
+          {
+            "index": 16,
+            "text": ""
+          },
+          {
+            "index": 17,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "拟提出的方法",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "拟提出的方法",
+              "fontSize": 37.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 2,
+          "text": "1. 将技能转化为步骤依赖图",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. 将技能",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "转化",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            },
+            {
+              "index": 3,
+              "text": "为步骤依赖图",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 3,
+          "text": "记录前置条件、预期结果、输入输出对象和重复执行风险",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "记录前置条件、预期结果、输入输出对象和重复执行风险",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 4,
+          "text": "第一版可以先采用少量人工整理的技能，先验证接入机制",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "第一版",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "可以先",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            },
+            {
+              "index": 3,
+              "text": "采用少量人工整理的技能，先验证接入机制",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 5,
+          "text": "2. 回溯对齐此前完成的工作",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. 回溯对齐此前完成的工作",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 6,
+          "text": "结合工具调用、返回的对象 ID 和当前环境查询",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "结合工具调用、返回的对象 ID 和当前环境查询",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 7,
+          "text": "步骤状态分为已证实完成、尚未完成和不确定",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "步骤状态分为已证实完成、尚未完成和不确定",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 8,
+          "text": "预期结果成立且对象匹配，才能判定该步骤已完成",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "预期结果成立且对象匹配，才能判定该步骤已完成",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

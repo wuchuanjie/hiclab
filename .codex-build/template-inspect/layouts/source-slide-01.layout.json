@@ -1,0 +1,1047 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "黄橙色",
+    "colors": {
+      "accent1": "#F0A22E",
+      "accent2": "#A5644E",
+      "accent3": "#B58B80",
+      "accent4": "#C3986D",
+      "accent5": "#A19574",
+      "accent6": "#C17529",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#4E3B30",
+      "lt2": "#FBEEC9",
+      "hlink": "#AD1F1F",
+      "folHlink": "#FFC42F"
+    },
+    "fontScheme": {
+      "name": "Edge",
+      "majorFont": {
+        "latinTypeface": "Garamond",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Garamond",
+      "Times New Roman",
+      "楷体"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "文本框 3",
+          "bbox": [
+            1100.67,
+            637.4,
+            32.53,
+            38.67
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "wrap": "none",
+            "autoFit": "resizeShapeToFitText"
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "backgroundColor": "bg1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1031",
+          "id": "1031",
+          "name": "图片 5",
+          "bbox": [
+            1041.42,
+            27.31,
+            176.13,
+            75.59
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.23137,
+            "right": 0.22634,
+            "bottom": 0.20135
+          },
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1026",
+          "id": "1026",
+          "name": "Rectangle 2",
+          "bbox": [
+            65.56,
+            27.33,
+            1152,
+            60.5
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版标题样式",
+          "textPreview": "单击此处编辑母版标题样式",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版标题样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版标题样式"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1027",
+          "id": "1027",
+          "name": "Rectangle 3",
+          "bbox": [
+            65.56,
+            125.67,
+            1152,
+            529.17
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版文本样式\n第二级\n第三级\n第四级\n第五级",
+          "textPreview": "单击此处编辑母版文本样式 | 第二级 | 第三级 | 第四级 | 第五级",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版文本样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版文本样式"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "第二级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第二级"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "第三级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第三级"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "第四级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第四级"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "第五级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第五级"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1029",
+          "id": "1029",
+          "name": "Line 9",
+          "bbox": [
+            65.56,
+            103,
+            1148.89,
+            0
+          ],
+          "geometry": "line",
+          "lineWidth": 8
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1030",
+          "id": "1030",
+          "name": "Text Box 11",
+          "bbox": [
+            297.33,
+            662.33,
+            473.78,
+            38.5
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "autoFit": "resizeShapeToFitText"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 6,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1032",
+          "id": "1032",
+          "name": "图片 1",
+          "bbox": [
+            1048.2,
+            27.33,
+            62.73,
+            62.73
+          ],
+          "contentType": "image/jpeg",
+          "asset": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547294r6",
+      "id": "2",
+      "name": "标题 1",
+      "bbox": [
+        65.56,
+        27.33,
+        1152,
+        60.5
+      ],
+      "text": "任务及动机",
+      "textPreview": "任务及动机",
+      "resolvedFontSize": 53.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 53.33,
+        "typeface": "楷体",
+        "color": "tx2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "任务及动机"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "任务及动机",
+          "runs": [
+            {
+              "index": 1,
+              "text": "任务及动机",
+              "color": "#0080FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "name": "内容占位符 2",
+      "bbox": [
+        65.53,
+        125.67,
+        1152,
+        536.8
+      ],
+      "text": "任务：给定一个用户任务，agent选择最合适的一个或者几个技能来执行任务\n故事线：\n1.现有agent基本都是直接把技能的name和description输入大模型让其进行选择\n①技能太多，超窗口&耗token ②不考虑技能主体可能难以区分技能\n2.考虑了技能主体后太长，没办法输入给大模型进行选择，只能通过向量相似度匹配\n相似度分数最高的不一定是有用的技能，所以需要reranker\n3.现有reranker是直接训练一个模型，输入粗检索的所有技能主体，输出一个分数\n主体非常长，不需要所有技能都看主体，只需要看相似的、难以抉择的技能的主体\n输出只有最终分数，过于“直觉”，缺乏中间逻辑推导，在面对包含多重限制条件、或高度复杂的查询时容易出错\n黑盒模型，缺乏可解释性\n4.提出我们的方法：两阶段search-r1范式的技能选择器\n粗粒度检索阶段，用相似度检索出top-k个技能\n细粒度选择阶段，先输入每个技能的元信息，让大模型进行推理，如果大模型认为需要某个技能的具体信息（元信息判断不出区别），则输出特殊token进行搜索，推理完毕输出最终的推理结果（最终选择的技能）\n\n\n\n\n\n\n\n",
+      "textPreview": "任务：给定一个用户任务，agent选择最合适的一个或者几个技能来执行任务 | 故事线： | 1.现有agent基本都是直接把技能的name和description输入大模型让其进行选择 | ①技能太多，超窗口&耗token ②不考虑技能主体可能难以区分技能 | 2.考虑了技...",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "楷体",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 45,
+        "lines": [
+          {
+            "index": 1,
+            "text": "p任务：给定一个用户任务，agent选择最合适的一个或者几个技能来执行任务"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "p故事线："
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "p1.现有agent基本都是直接把技能的name和description输入大模型让其进行选择"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "Ø①技能太多，超窗口&耗token ②不考虑技能主体可能难以区分技能"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "p2.考虑了技能主体后太长，没办法输入给大模型进行选择，只能通过向量相似度匹配"
+          },
+          {
+            "index": 10,
+            "text": ""
+          },
+          {
+            "index": 11,
+            "text": "Ø相似度分数最高的不一定是有用的技能，所以需要reranker"
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "p3.现有reranker是直接训练一个模型，输入粗检索的所有技能主体，输出一个分数"
+          },
+          {
+            "index": 14,
+            "text": ""
+          },
+          {
+            "index": 15,
+            "text": "Ø主体非常长，不需要所有技能都看主体，只需要看相似的、难以抉择的技能的主体"
+          },
+          {
+            "index": 16,
+            "text": ""
+          },
+          {
+            "index": 17,
+            "text": "Ø输出只有最终分数，过于“直觉”"
+          },
+          {
+            "index": 18,
+            "text": "，缺乏中间逻辑推导，在面对包含多重限制条件、或高度复杂的查询时容易出错"
+          },
+          {
+            "index": 19,
+            "text": ""
+          },
+          {
+            "index": 20,
+            "text": "Ø黑盒模型，缺乏可解释性"
+          },
+          {
+            "index": 21,
+            "text": ""
+          },
+          {
+            "index": 22,
+            "text": "p4.提出我们的方法：两阶段search-r1范式的技能选择器"
+          },
+          {
+            "index": 23,
+            "text": ""
+          },
+          {
+            "index": 24,
+            "text": "Ø粗粒度检索阶段，用相似度检索出top-k个技能"
+          },
+          {
+            "index": 25,
+            "text": ""
+          },
+          {
+            "index": 26,
+            "text": "Ø"
+          },
+          {
+            "index": 27,
+            "text": "细粒度选择阶段，先输入每个技能的元信息，让大模型进行推理，如果大模型认为需要某个技"
+          },
+          {
+            "index": 28,
+            "text": "能的具体信息（元信息判断不出区别），则输出特殊token"
+          },
+          {
+            "index": 29,
+            "text": "进行搜索，推理完毕输出最终的推理结果（最终选择的技能）"
+          },
+          {
+            "index": 30,
+            "text": ""
+          },
+          {
+            "index": 31,
+            "text": ""
+          },
+          {
+            "index": 32,
+            "text": ""
+          },
+          {
+            "index": 33,
+            "text": ""
+          },
+          {
+            "index": 34,
+            "text": ""
+          },
+          {
+            "index": 35,
+            "text": ""
+          },
+          {
+            "index": 36,
+            "text": ""
+          },
+          {
+            "index": 37,
+            "text": ""
+          },
+          {
+            "index": 38,
+            "text": ""
+          },
+          {
+            "index": 39,
+            "text": ""
+          },
+          {
+            "index": 40,
+            "text": ""
+          },
+          {
+            "index": 41,
+            "text": ""
+          },
+          {
+            "index": 42,
+            "text": ""
+          },
+          {
+            "index": 43,
+            "text": ""
+          },
+          {
+            "index": 44,
+            "text": ""
+          },
+          {
+            "index": 45,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "任务：给定一个用户任务，agent选择最合适的一个或者几个技能来执行任务",
+          "runs": [
+            {
+              "index": 1,
+              "text": "任务：给定一个用户任务，",
+              "fontSize": 26.67
+            },
+            {
+              "index": 2,
+              "text": "agent",
+              "fontSize": 26.67
+            },
+            {
+              "index": 3,
+              "text": "选择最合适的",
+              "fontSize": 26.67
+            },
+            {
+              "index": 4,
+              "text": "一个或者几个技能",
+              "fontSize": 26.67,
+              "color": "#FF0000",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": "来执行任务",
+              "fontSize": 26.67
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 2,
+          "text": "故事线：",
+          "runs": [
+            {
+              "index": 1,
+              "text": "故事线：",
+              "fontSize": 26.67
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 3,
+          "text": "1.现有agent基本都是直接把技能的name和description输入大模型让其进行选择",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1.",
+              "fontSize": 24
+            },
+            {
+              "index": 2,
+              "text": "现有",
+              "fontSize": 24
+            },
+            {
+              "index": 3,
+              "text": "agent",
+              "fontSize": 24
+            },
+            {
+              "index": 4,
+              "text": "基本都是直接把技能的",
+              "fontSize": 24
+            },
+            {
+              "index": 5,
+              "text": "name",
+              "fontSize": 24
+            },
+            {
+              "index": 6,
+              "text": "和",
+              "fontSize": 24
+            },
+            {
+              "index": 7,
+              "text": "description",
+              "fontSize": 24
+            },
+            {
+              "index": 8,
+              "text": "输入大模型让其进行选择",
+              "fontSize": 24
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 669925,
+          "indent": -325755
+        },
+        {
+          "index": 4,
+          "text": "①技能太多，超窗口&耗token ②不考虑技能主体可能难以区分技能",
+          "runs": [
+            {
+              "index": 1,
+              "text": "①技能太多，超窗口",
+              "fontSize": 24
+            },
+            {
+              "index": 2,
+              "text": "&",
+              "fontSize": 24
+            },
+            {
+              "index": 3,
+              "text": "耗",
+              "fontSize": 24
+            },
+            {
+              "index": 4,
+              "text": "token ",
+              "fontSize": 24
+            },
+            {
+              "index": 5,
+              "text": "②",
+              "fontSize": 24
+            },
+            {
+              "index": 6,
+              "text": "不考虑技能主体可能难以区分技能",
+              "fontSize": 24
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 5,
+          "text": "2.考虑了技能主体后太长，没办法输入给大模型进行选择，只能通过向量相似度匹配",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2.",
+              "fontSize": 24
+            },
+            {
+              "index": 2,
+              "text": "考虑了技能主体后太长，没办法输入给大模型进行选择，只能通过向量相似度匹配",
+              "fontSize": 24
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 669925,
+          "indent": -325755
+        },
+        {
+          "index": 6,
+          "text": "相似度分数最高的不一定是有用的技能，所以需要reranker",
+          "runs": [
+            {
+              "index": 1,
+              "text": "相似度分数最高的不一定是有用的技能，所以需要",
+              "fontSize": 24
+            },
+            {
+              "index": 2,
+              "text": "reranker",
+              "fontSize": 24
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 7,
+          "text": "3.现有reranker是直接训练一个模型，输入粗检索的所有技能主体，输出一个分数",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3.",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 2,
+              "text": "现有",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 3,
+              "text": "reranker",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 4,
+              "text": "是直接训练一个模型，输入粗检索的所有技能主体，输出一个分数",
+              "fontSize": 24,
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 669925,
+          "indent": -325755
+        },
+        {
+          "index": 8,
+          "text": "主体非常长，不需要所有技能都看主体，只需要看相似的、难以抉择的技能的主体",
+          "runs": [
+            {
+              "index": 1,
+              "text": "主体非常长，不需要所有技能都看主体，只需要看相似的、难以抉择的技能的主体",
+              "fontSize": 24,
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 9,
+          "text": "输出只有最终分数，过于“直觉”，缺乏中间逻辑推导，在面对包含多重限制条件、或高度复杂的查询时容易出错",
+          "runs": [
+            {
+              "index": 1,
+              "text": "输出只有最终分数，过于",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 2,
+              "text": "“",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 3,
+              "text": "直觉",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 4,
+              "text": "”",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 5,
+              "text": "，缺乏中间逻辑推导，在面对包含多重限制条件、或高度复杂的查询时容易出错",
+              "fontSize": 24,
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 10,
+          "text": "黑盒模型，缺乏可解释性",
+          "runs": [
+            {
+              "index": 1,
+              "text": "黑盒模型，缺乏可解释性",
+              "fontSize": 24,
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 11,
+          "text": "4.提出我们的方法：两阶段search-r1范式的技能选择器",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4.",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 2,
+              "text": "提出我们的方法：两阶段",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 3,
+              "text": "search-r1",
+              "fontSize": 24,
+              "color": "tx1"
+            },
+            {
+              "index": 4,
+              "text": "范式的技能选择器",
+              "fontSize": 24,
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "p",
+          "marginLeft": 669925,
+          "indent": -325755
+        },
+        {
+          "index": 12,
+          "text": "粗粒度检索阶段，用相似度检索出top-k个技能",
+          "runs": [
+            {
+              "index": 1,
+              "text": "粗粒度检索阶段，用相似度检索出",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 2,
+              "text": "top-k",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 3,
+              "text": "个技能",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        },
+        {
+          "index": 13,
+          "text": "细粒度选择阶段，先输入每个技能的元信息，让大模型进行推理，如果大模型认为需要某个技能的具体信息（元信息判断不出区别），则输出特殊token进行搜索，推理完毕输出最终的推理结果（最终选择的技能）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "细粒度选择阶段，先输入每个技能的元信息，让大模型进行推理，如果大模型认为需要某个技能的具体信息（元信息判断不出区别），则输出特殊",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 2,
+              "text": "token",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 3,
+              "text": "进行搜索，推理完毕输出最终的推理结果（最终选择的技能）",
+              "fontSize": 24,
+              "typeface": "Times New Roman"
+            }
+          ],
+          "bulletCharacter": "Ø",
+          "marginLeft": 1022350,
+          "indent": -351155
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

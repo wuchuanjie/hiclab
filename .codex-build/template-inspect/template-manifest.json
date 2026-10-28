@@ -1,0 +1,169 @@
+{
+  "sourcePptx": "/Users/wuchuanjie/Documents/0_WPS/研究生/组会/个人组会模版.pptx",
+  "workspace": "/Users/wuchuanjie/project/文旅部重点实验室网站",
+  "outDir": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect",
+  "generatedAt": "2026-10-02T01:36:19.957Z",
+  "slideCount": 9,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-01.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-01.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-02.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-02.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-03.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-03.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-04.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-04.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-05.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-05.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-06.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-06.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-07.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-07.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-08.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-08.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/source-slides/source-slide-09.png",
+      "previewRelativePath": ".codex-build/template-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/layouts/source-slide-09.layout.json",
+      "layoutRelativePath": ".codex-build/template-inspect/layouts/source-slide-09.layout.json"
+    }
+  ],
+  "inspectPath": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/template-inspect.ndjson",
+  "inspectRelativePath": ".codex-build/template-inspect/template-inspect.ndjson",
+  "inspectTruncated": false,
+  "inspectMetadata": {
+    "revision": "wokd51",
+    "target": {
+      "id": "pr/jant3n"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/",
+      "path": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/assets/ppt/media/media",
+      "relativePath": ".codex-build/template-inspect/assets/ppt/media/media",
+      "bytes": 0
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/assets/ppt/media/image1.png",
+      "relativePath": ".codex-build/template-inspect/assets/ppt/media/image1.png",
+      "bytes": 42796
+    },
+    {
+      "entry": "ppt/media/image2.jpeg",
+      "path": "/Users/wuchuanjie/project/文旅部重点实验室网站/.codex-build/template-inspect/assets/ppt/media/image2.jpeg",
+      "relativePath": ".codex-build/template-inspect/assets/ppt/media/image2.jpeg",
+      "bytes": 40038
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Garamond",
+    "Gautami",
+    "Iskoola Pota",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "MS PGothic",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Nyala",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Shruti",
+    "Songti SC",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "Wingdings",
+    "宋体",
+    "新宋体",
+    "新細明體",
+    "楷体",
+    "맑은 고딕",
+    "ＭＳ Ｐゴシック"
+  ],
+  "packageParts": {
+    "mediaCount": 3,
+    "slideXmlCount": 9,
+    "chartCount": 0,
+    "tableSlideCount": 1
+  }
+}

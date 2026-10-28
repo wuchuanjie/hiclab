@@ -1,0 +1,983 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gnmp4jqx",
+    "id": "gnmp4jqx",
+    "slide": 7,
+    "layoutId": "/ppt/slideLayouts/slideLayout15.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "黄橙色",
+    "colors": {
+      "accent1": "#F0A22E",
+      "accent2": "#A5644E",
+      "accent3": "#B58B80",
+      "accent4": "#C3986D",
+      "accent5": "#A19574",
+      "accent6": "#C17529",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#4E3B30",
+      "lt2": "#FBEEC9",
+      "hlink": "#AD1F1F",
+      "folHlink": "#FFC42F"
+    },
+    "fontScheme": {
+      "name": "Edge",
+      "majorFont": {
+        "latinTypeface": "Garamond",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      },
+      "minorFont": {
+        "latinTypeface": "Arial",
+        "eastAsianTypeface": "新宋体",
+        "complexScriptTypeface": "新宋体"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Garamond",
+      "Songti SC",
+      "楷体"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout15.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout15.xml/4",
+          "id": "4",
+          "name": "文本框 3",
+          "bbox": [
+            1100.67,
+            637.4,
+            32.53,
+            38.67
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "wrap": "none",
+            "autoFit": "resizeShapeToFitText"
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "backgroundColor": "bg1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1031",
+          "id": "1031",
+          "name": "图片 5",
+          "bbox": [
+            1041.42,
+            27.31,
+            176.13,
+            75.59
+          ],
+          "contentType": "image/png",
+          "imageCrop": {
+            "left": 0,
+            "top": 0.23137,
+            "right": 0.22634,
+            "bottom": 0.20135
+          },
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 42796
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1026",
+          "id": "1026",
+          "name": "Rectangle 2",
+          "bbox": [
+            65.56,
+            27.33,
+            1152,
+            60.5
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版标题样式",
+          "textPreview": "单击此处编辑母版标题样式",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版标题样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版标题样式"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1027",
+          "id": "1027",
+          "name": "Rectangle 3",
+          "bbox": [
+            65.56,
+            125.67,
+            1152,
+            529.17
+          ],
+          "geometry": "rect",
+          "text": "单击此处编辑母版文本样式\n第二级\n第三级\n第四级\n第五级",
+          "textPreview": "单击此处编辑母版文本样式 | 第二级 | 第三级 | 第四级 | 第五级",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单击此处编辑母版文本样式",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单击此处编辑母版文本样式"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "第二级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第二级"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "第三级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第三级"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "第四级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第四级"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "第五级",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "第五级"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1029",
+          "id": "1029",
+          "name": "Line 9",
+          "bbox": [
+            65.56,
+            103,
+            1148.89,
+            0
+          ],
+          "geometry": "line",
+          "lineWidth": 8
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1030",
+          "id": "1030",
+          "name": "Text Box 11",
+          "bbox": [
+            297.33,
+            662.33,
+            473.78,
+            38.5
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "autoFit": "resizeShapeToFitText"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 6,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/1032",
+          "id": "1032",
+          "name": "图片 1",
+          "bbox": [
+            1048.2,
+            27.33,
+            62.73,
+            62.73
+          ],
+          "contentType": "image/jpeg",
+          "asset": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image2.jpeg",
+            "contentType": "image/jpeg",
+            "byteLength": 40038
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb2tkvap",
+      "id": "2",
+      "name": "标题 1",
+      "bbox": [
+        65.56,
+        27.33,
+        1152,
+        60.5
+      ],
+      "text": "当前想法",
+      "textPreview": "当前想法",
+      "resolvedFontSize": 53.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 53.33,
+        "typeface": "楷体",
+        "color": "tx2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前想法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前想法",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前想法",
+              "color": "#0080FF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydkbm5sv",
+      "id": "4",
+      "name": "三级条目",
+      "bbox": [
+        78.73,
+        105.33,
+        1220,
+        220
+      ],
+      "geometry": "rect",
+      "text": "预实验：确认错误接入是否是实际瓶颈\n约20个任务，在25%、50%、75%处采样约60个状态\n前半段由普通 Agent 自由执行，各方法从相同状态继续",
+      "textPreview": "预实验：确认错误接入是否是实际瓶颈 | 约20个任务，在25%、50%、75%处采样约60个状态 | 前半段由普通 Agent 自由执行，各方法从相同状态继续",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "预实验：确认错误接入是否是实际瓶颈"
+          },
+          {
+            "index": 2,
+            "text": "约20个任务，在25%、50%、75%处采样约60个状态"
+          },
+          {
+            "index": 3,
+            "text": "前半段由普通 Agent 自由执行，各方法从相同状态继续"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "预实验：确认错误接入是否是实际瓶颈",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "预实验：确认错误接入是否是实际瓶颈",
+              "fontSize": 37.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "约20个任务，在25%、50%、75%处采样约60个状态",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "约20个任务，在25%、50%、75%处采样约60个状态",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "前半段由普通 Agent 自由执行，各方法从相同状态继续",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "前半段由普通 Agent 自由执行，各方法从相同状态继续",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/wj29o7ut",
+      "id": "7",
+      "name": "表格 4",
+      "bbox": [
+        84,
+        278.07,
+        1130,
+        266
+      ],
+      "text": "接续条件 | 中途获得技能后的行为\n无技能 | 普通 Agent 继续执行\n原样技能 | 提供完整技能，由 Agent 自行接续\n提示接续 | 提供完整技能，提示不要重复已完成步骤\n人工正确接入 | 标出已完成步骤和正确对象，作为诊断上界",
+      "textPreview": "接续条件 | 中途获得技能后的行为 | 无技能 | 普通 Agent 继续执行 | 原样技能 | 提供完整技能，由 Agent 自行接续 | 提示接续 | 提供完整技能，提示不要重复已完成步骤 | 人工正确接入 | 标出已完成步骤和正确对象，作为诊断上界",
+      "rows": 5,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            84,
+            278.07,
+            250,
+            50
+          ],
+          "text": "接续条件",
+          "textPreview": "接续条件",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "接续条件",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "接续条件",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            334,
+            278.07,
+            880,
+            50
+          ],
+          "text": "中途获得技能后的行为",
+          "textPreview": "中途获得技能后的行为",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "中途获得技能后的行为",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "中途获得技能后的行为",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            84,
+            328.07,
+            250,
+            54
+          ],
+          "text": "无技能",
+          "textPreview": "无技能",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "无技能",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "无技能",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            334,
+            328.07,
+            880,
+            54
+          ],
+          "text": "普通 Agent 继续执行",
+          "textPreview": "普通 Agent 继续执行",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "普通 Agent 继续执行",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "普通 Agent 继续执行",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            84,
+            382.07,
+            250,
+            54
+          ],
+          "text": "原样技能",
+          "textPreview": "原样技能",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "原样技能",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "原样技能",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            334,
+            382.07,
+            880,
+            54
+          ],
+          "text": "提供完整技能，由 Agent 自行接续",
+          "textPreview": "提供完整技能，由 Agent 自行接续",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "提供完整技能，由 Agent 自行接续",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "提供完整技能，由 Agent 自行接续",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            84,
+            436.07,
+            250,
+            54
+          ],
+          "text": "提示接续",
+          "textPreview": "提示接续",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "提示接续",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "提示接续",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            334,
+            436.07,
+            880,
+            54
+          ],
+          "text": "提供完整技能，提示不要重复已完成步骤",
+          "textPreview": "提供完整技能，提示不要重复已完成步骤",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "提供完整技能，提示不要重复已完成步骤",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "提供完整技能，提示不要重复已完成步骤",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            84,
+            490.07,
+            250,
+            54
+          ],
+          "text": "人工正确接入",
+          "textPreview": "人工正确接入",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "人工正确接入",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "人工正确接入",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            334,
+            490.07,
+            880,
+            54
+          ],
+          "text": "标出已完成步骤和正确对象，作为诊断上界",
+          "textPreview": "标出已完成步骤和正确对象，作为诊断上界",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "标出已完成步骤和正确对象，作为诊断上界",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "标出已完成步骤和正确对象，作为诊断上界",
+                  "fontSize": 27,
+                  "typeface": "楷体",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzmdova1",
+      "id": "6",
+      "name": "三级条目",
+      "bbox": [
+        78.73,
+        570.07,
+        1220,
+        125
+      ],
+      "geometry": "rect",
+      "text": "主要是观察：普通接续与人工正确接入之间的差距\n逐例区分重复副作用、错误跳步、对象绑定错误和技能不适用",
+      "textPreview": "主要是观察：普通接续与人工正确接入之间的差距 | 逐例区分重复副作用、错误跳步、对象绑定错误和技能不适用",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "主要是观察：普通接续与人工正确接入之间的差距"
+          },
+          {
+            "index": 2,
+            "text": "逐例区分重复副作用、错误跳步、对象绑定错误和技能不适用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "主要是观察：普通接续与人工正确接入之间的差距",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "主要是",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "观察：普通接续与人工正确接入之间的差距",
+              "fontSize": 33.33,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "逐例区分重复副作用、错误跳步、对象绑定错误和技能不适用",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "typeface": "Songti SC",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "逐例区分重复副作用、错误跳步、对象绑定错误和技能不适用",
+              "fontSize": 28,
+              "typeface": "楷体",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -70,7 +70,7 @@
         { category: "实验室动态", title: "新闻动态", text: "实验室项目、会议、媒体报道、调研与两岸民宿标准等新闻。", href: "news.html" },
         { category: "实验室动态", title: "通知公告", text: "会议程序册与学术年会通知。", href: "notices.html" },
         { category: "研究团队", title: "研究团队总览", text: "实验室各研究组介绍与成员。", href: "teams.html" },
-        { category: "研究团队", title: "数字媒体计算中心", text: "姚俊峰教授负责，数据挖掘与知识图谱、智能语言信息处理、计算机图形学与AIGC、社交机器人与人机交互、医学图像与视觉感知。", href: "teams/digital-media-computing.html" },
+        { category: "研究团队", title: "数字媒体计算中心", text: "姚俊峰教授负责，非遗文化数字化与知识组织、非遗文化大模型与方言处理、非遗智能展演与交互传播。", href: "teams/digital-media-computing.html" },
         { category: "研究团队", title: "自然语言处理课题组", text: "史晓东、陈毅东教授团队，机器翻译与多语言处理、低资源语言处理、多模态建模与处理、语言文化计算与自然语言处理应用。", href: "teams/natural-language-processing.html" },
         { category: "研究团队", title: "智能计算与物理仿真课题组", text: "智能优化、多物理场神经算子、物理信息驱动的生成模型与多媒体学习。", href: "teams/intelligent-computing-simulation.html" },
         { category: "研究团队", title: "Human+课题组", text: "郭诗辉教授团队，智能柔性穿戴人体动作捕捉、自然人机交互与具身智能。", href: "teams/human-plus.html" },
