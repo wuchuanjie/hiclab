@@ -768,8 +768,8 @@ ul {
     display: flex;
     align-items: center;
     gap: 15px;
-    min-height: 108px;
-    padding: 20px 24px;
+    min-height: 84px;
+    padding: 16px 24px;
     border: 0;
     background: #dfae89;
     color: #55271f;
@@ -802,17 +802,17 @@ ul {
 
 .notice-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
 }
 
 .notice-items a {
     display: grid;
-    grid-template-columns: 62px 1fr;
-    gap: 16px;
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 14px;
     align-items: center;
-    min-height: 108px;
-    padding: 18px 18px;
+    min-height: 84px;
+    padding: 14px 16px;
     border: 1px solid #e5d2b8;
     background: #fffaf1;
     color: #43362e;
@@ -832,7 +832,7 @@ ul {
 }
 
 .notice-date {
-    padding-right: 13px;
+    padding-right: 11px;
     border-right: 1px solid #d9b98e;
     color: var(--brick);
     font-family: Georgia, serif;
@@ -840,7 +840,7 @@ ul {
 }
 
 .notice-date b {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.2;
 }
 
@@ -850,10 +850,14 @@ ul {
 }
 
 .notice-items strong {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     font-family: "Songti SC", "STSong", serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 1.65;
+    line-height: 1.6;
 }
 
 /* Laboratory profile */
@@ -1260,8 +1264,13 @@ ul {
     }
 
     .notice-layout {
-        grid-template-columns: 185px 1fr;
-        gap: 24px;
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .notice-title {
+        min-height: 0;
+        padding: 12px 22px;
     }
 
     .profile-grid {
