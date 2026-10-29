@@ -1410,6 +1410,37 @@ a.person-photo:focus-visible img {
     margin-top: 7px;
 }
 
+/* Video page */
+.video-feature {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.video-feature video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #1d1410;
+}
+
+.video-feature figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 16px 4px;
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.video-feature figcaption strong {
+    color: var(--brick-deep);
+    font-family: "Songti SC", STSong, serif;
+    font-size: 21px;
+}
+
 /* Shared footer */
 .portal-footer {
     position: relative;
