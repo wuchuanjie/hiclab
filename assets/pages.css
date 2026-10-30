@@ -28,7 +28,7 @@ body {
     background: #fff;
     color: var(--ink);
     font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8;
     -webkit-font-smoothing: antialiased;
 }
@@ -106,7 +106,7 @@ select {
 }
 
 .portal-utility {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .portal-utility .page-shell {
@@ -185,7 +185,7 @@ select {
 
 .portal-brand-copy small {
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0.28em;
 }
 
@@ -197,7 +197,7 @@ select {
     border: 1px solid rgba(255, 255, 255, 0.58);
     border-radius: 999px;
     background: rgba(50, 23, 18, 0.16);
-    font-size: 15px;
+    font-size: 17px;
     backdrop-filter: blur(4px);
 }
 
@@ -236,7 +236,7 @@ select {
     align-items: center;
     justify-content: center;
     padding-inline: 14px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -295,7 +295,7 @@ select {
     padding: 14px 18px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     background: transparent;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     text-shadow: none;
     transition: background-color 0.2s ease, color 0.2s ease;
@@ -339,7 +339,7 @@ select {
 .breadcrumbs {
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.72);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .breadcrumbs a:hover,
@@ -360,7 +360,7 @@ select {
     max-width: 760px;
     margin-top: 8px;
     color: rgba(255, 255, 255, 0.78);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* Main page content */
@@ -387,7 +387,7 @@ select {
     padding: 19px 20px 14px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 .side-nav a {
@@ -398,14 +398,14 @@ select {
     padding: 10px 20px;
     border-top: 1px solid rgba(112, 63, 38, 0.12);
     color: #62554c;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .side-nav a::after {
     content: "›";
     color: #b68b68;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .side-nav a:hover,
@@ -423,7 +423,7 @@ select {
     min-height: 43px;
     justify-content: flex-start;
     padding-left: 32px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -446,7 +446,7 @@ select {
     display: block;
     margin-bottom: 3px;
     color: var(--vermilion);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.2em;
 }
@@ -461,7 +461,7 @@ select {
 .prose p {
     margin-bottom: 17px;
     color: #544941;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
     text-align: justify;
 }
@@ -496,7 +496,7 @@ select {
     border-left: 4px solid var(--gold);
     background: #fbf6ee;
     color: #544941;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 2;
     text-align: justify;
 }
@@ -535,13 +535,13 @@ select {
     margin-bottom: 10px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
 .project-grid p {
     color: var(--muted);
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.85;
 }
 
@@ -578,7 +578,7 @@ select {
 .direction-stat-grid span {
     margin-top: 7px;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Direction and team grids */
@@ -617,14 +617,14 @@ select {
     margin-bottom: 12px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
 .direction-page-card p,
 .team-card p {
     color: var(--muted);
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.85;
 }
 
@@ -652,7 +652,7 @@ select {
     border-radius: 999px;
     background: #fffaf2;
     color: #795345;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Research group pages */
@@ -680,7 +680,7 @@ select {
     margin: 0 0 17px 1.4em;
     list-style: disc;
     color: #544941;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
 }
 
@@ -761,14 +761,14 @@ select {
 .news-card time {
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .news-card h3 {
     margin-block: 9px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -776,7 +776,7 @@ select {
     display: -webkit-box;
     overflow: hidden;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
@@ -786,7 +786,7 @@ select {
     display: inline-block;
     margin-top: 13px;
     color: var(--brick);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .listing {
@@ -829,20 +829,20 @@ select {
 }
 
 .listing-date small {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .listing-copy h3 {
     color: var(--ink);
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
 .listing-copy p {
     margin-top: 7px;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
 }
 
@@ -882,7 +882,7 @@ select {
 .featured-news-copy time {
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .featured-news-copy h3 {
@@ -900,7 +900,7 @@ select {
 .article-detail {
     max-width: 1050px;
     color: #544941;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 2;
 }
 
@@ -909,7 +909,7 @@ select {
     margin-bottom: 20px;
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .article-meta {
@@ -917,7 +917,7 @@ select {
     padding-bottom: 15px;
     border-bottom: 1px solid var(--line);
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -927,7 +927,7 @@ select {
 
 .original-content p {
     margin-bottom: 18px;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 2;
 }
 
@@ -1089,7 +1089,7 @@ a.person-photo:focus-visible img {
     padding-bottom: 12px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 1.35;
 }
 
@@ -1112,7 +1112,7 @@ a.person-photo:focus-visible img {
 .person-card p {
     width: 100%;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -1122,7 +1122,7 @@ a.person-photo:focus-visible img {
 
 .person-card .person-title {
     color: #544941;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -1131,7 +1131,7 @@ a.person-photo:focus-visible img {
     max-width: 100%;
     margin-top: 10px;
     color: var(--brick);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.6;
 }
@@ -1180,7 +1180,7 @@ a.person-photo:focus-visible img {
     margin: 30px 0 10px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .person-profile p {
@@ -1190,7 +1190,7 @@ a.person-photo:focus-visible img {
 
 .profile-role {
     color: var(--vermilion) !important;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
 }
 
@@ -1224,21 +1224,21 @@ a.person-photo:focus-visible img {
 
 .achievement-card time {
     color: var(--vermilion);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .achievement-card h3 {
     margin-top: 8px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
 .achievement-card p {
     margin-top: 8px;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Publications */
@@ -1291,7 +1291,7 @@ a.person-photo:focus-visible img {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .publication-table:not(:has(.publication-item:not([hidden]))) {
@@ -1308,7 +1308,7 @@ a.person-photo:focus-visible img {
     box-shadow: 0 6px 12px rgba(71, 33, 21, 0.12);
     color: #fff;
     font-family: "Songti SC", STSong, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-align: left;
     white-space: nowrap;
@@ -1334,14 +1334,14 @@ a.person-photo:focus-visible img {
 .publication-year {
     color: var(--brick);
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .publication-table .publication-title {
     color: #140e0b;
     font-family: "Songti SC", STSong, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.6;
 }
@@ -1349,7 +1349,7 @@ a.person-photo:focus-visible img {
 .result-count {
     margin-bottom: 15px;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Global search */
@@ -1380,12 +1380,12 @@ a.person-photo:focus-visible img {
     margin-block: 4px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 .search-result p {
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Empty video page */
@@ -1432,13 +1432,13 @@ a.person-photo:focus-visible img {
     padding: 16px 4px;
     border-bottom: 1px solid var(--line);
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .video-feature figcaption strong {
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 /* Shared footer */
@@ -1469,7 +1469,7 @@ a.person-photo:focus-visible img {
     padding-bottom: 12px;
     color: #f6e7c8;
     font-family: "Songti SC", STSong, serif;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.08em;
 }
 
@@ -1486,7 +1486,7 @@ a.person-photo:focus-visible img {
 .portal-footer-contact p {
     margin-bottom: 10px;
     color: rgba(255, 243, 226, 0.82);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .portal-footer-links {
@@ -1503,7 +1503,7 @@ a.person-photo:focus-visible img {
     padding: 11px 0;
     border-bottom: 1px solid rgba(255, 243, 226, 0.14);
     color: rgba(255, 243, 226, 0.86);
-    font-size: 15px;
+    font-size: 17px;
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -1536,7 +1536,7 @@ a.person-photo:focus-visible img {
     justify-content: space-between;
     gap: 20px;
     color: rgba(255, 243, 226, 0.56);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .portal-footer-bottom a {
@@ -1562,12 +1562,12 @@ a.person-photo:focus-visible img {
 
 @media (max-width: 1100px) {
     .portal-brand-copy span {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .portal-nav-link {
         padding-inline: 12px;
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
@@ -1590,12 +1590,12 @@ a.person-photo:focus-visible img {
     }
 
     .portal-brand-copy strong {
-        font-size: 19px;
+        font-size: 21px;
     }
 
     .portal-brand-copy span {
         max-width: 520px;
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 0;
         white-space: normal;
     }
@@ -1640,7 +1640,7 @@ a.person-photo:focus-visible img {
 
     .portal-nav-link {
         min-height: 46px;
-        font-size: 14px;
+        font-size: 16px;
         white-space: normal;
         text-align: center;
     }
@@ -1737,12 +1737,12 @@ a.person-photo:focus-visible img {
     }
 
     .portal-brand-copy strong {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .portal-brand-copy span {
         max-width: 255px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .portal-search-link {
@@ -1790,7 +1790,7 @@ a.person-photo:focus-visible img {
     }
 
     .listing-copy h3 {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .listing-copy p {

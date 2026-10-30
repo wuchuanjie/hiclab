@@ -50,14 +50,14 @@
         {
             key: "achievements",
             label: "科研成果",
-            href: "achievements.html",
+            href: "publications.html",
             children: [
+                { label: "论文发表", href: "publications.html" },
                 { label: "专利", href: "achievements.html?category=patent" },
                 { label: "获奖", href: "achievements.html?category=award" },
                 { label: "软件著作权", href: "achievements.html?category=software" }
             ]
         },
-        { key: "publications", label: "论文发表", href: "publications.html" },
         { key: "videos", label: "视频展示", href: "videos.html" }
     ];
 
@@ -83,7 +83,7 @@
         { category: "科研成果", title: "专利", text: "实验室授权专利和专利申请成果栏目。", href: "achievements.html?category=patent" },
         { category: "科研成果", title: "获奖", text: "实验室团队、项目和作品获奖成果栏目。", href: "achievements.html?category=award" },
         { category: "科研成果", title: "软件著作权", text: "实验室软件著作权成果栏目。", href: "achievements.html?category=software" },
-        { category: "论文发表", title: "论文发表", text: "通过年份筛选和关键词搜索实验室论文。", href: "publications.html" },
+        { category: "科研成果", title: "论文发表", text: "通过年份筛选和关键词搜索实验室论文。", href: "publications.html" },
         { category: "视频展示", title: "视频展示", text: "厦门大学闽台非遗文旅部重点实验室介绍视频。", href: "videos.html" },
         { category: "新闻动态", title: "喜报 | 我实验室再获2026年度文化和旅游部重点实验室资助项目", text: "近日，文化和旅游部官网公示2026年度文化和旅游部重点实验室资助项目立项名单，我实验室申报项目《基于灵巧手的提线木偶互动表演系统》成功获批。本项目由厦门大学闽台非遗文化数字化保护与智能处理文化和旅游部重点实验室副主任姚俊峰教授团队牵头，联合厦门辰瑞电子科技有限公司共同攻关，依托机器人灵巧操控、人机交互、智能动作生成等前沿技术，赋能国家级非遗16线提线木偶活态传承创新。经文旅部组织多轮遴选与专家评审，全国本年度入选项目数量有限，本项目成功突围立项。", href: "news/20260715.html" },
         { category: "新闻动态", title: "2026闽台非遗文旅部重战略研讨会在闽江大学召开", text: "2026年7月7日，闽台非遗文旅部重战略研讨会在福建闽江大学召开。本次研讨会由闽台非遗文化数字化保护与智能处理文化和旅游部重点实验室主办，围绕实验室未来重点攻关方向、团队协作机制、闽台特色深化路径等核心议题展开深入研讨。", href: "news/20260710.html" },
