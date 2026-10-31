@@ -28,7 +28,7 @@ body {
     background: #fff;
     color: var(--ink);
     font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.8;
     -webkit-font-smoothing: antialiased;
 }
@@ -103,10 +103,12 @@ select {
     left: 0;
     z-index: 100;
     color: #fff;
+    font-family: "Songti SC", STSong, serif;
+    font-weight: 700;
 }
 
 .portal-utility {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .portal-utility .page-shell {
@@ -169,15 +171,15 @@ select {
 .portal-brand-copy strong {
     margin-bottom: 5px;
     color: var(--gold-light);
-    font-family: "Songti SC", STSong, serif;
-    font-size: 28px;
+    font-family: "Kaiti SC", STKaiti, KaiTi, "楷体", serif;
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.2em;
 }
 
 .portal-brand-copy span {
-    font-family: "Songti SC", STSong, serif;
-    font-size: clamp(22px, 2vw, 30px);
+    font-family: "Kaiti SC", STKaiti, KaiTi, "楷体", serif;
+    font-size: clamp(24px, 2.4vw, 36px);
     font-weight: 700;
     letter-spacing: 0.05em;
     white-space: nowrap;
@@ -185,7 +187,7 @@ select {
 
 .portal-brand-copy small {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.28em;
 }
 
@@ -197,7 +199,7 @@ select {
     border: 1px solid rgba(255, 255, 255, 0.58);
     border-radius: 999px;
     background: rgba(50, 23, 18, 0.16);
-    font-size: 17px;
+    font-size: 18px;
     backdrop-filter: blur(4px);
 }
 
@@ -236,8 +238,8 @@ select {
     align-items: center;
     justify-content: center;
     padding-inline: 14px;
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
     white-space: nowrap;
 }
 
@@ -295,7 +297,7 @@ select {
     padding: 14px 18px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     background: transparent;
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     text-shadow: none;
     transition: background-color 0.2s ease, color 0.2s ease;
@@ -319,6 +321,8 @@ select {
     overflow: hidden;
     background: #6f3d2c url("./minnan/nanyin.png") center 18% / cover no-repeat;
     color: #fff;
+    font-family: "Songti SC", STSong, serif;
+    font-weight: 700;
 }
 
 .page-hero::before {
@@ -339,7 +343,7 @@ select {
 .breadcrumbs {
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.72);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .breadcrumbs a:hover,
@@ -360,7 +364,7 @@ select {
     max-width: 760px;
     margin-top: 8px;
     color: rgba(255, 255, 255, 0.78);
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* Main page content */
@@ -387,7 +391,7 @@ select {
     padding: 19px 20px 14px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .side-nav a {
@@ -398,14 +402,14 @@ select {
     padding: 10px 20px;
     border-top: 1px solid rgba(112, 63, 38, 0.12);
     color: #62554c;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .side-nav a::after {
     content: "›";
     color: #b68b68;
     font-family: Georgia, serif;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .side-nav a:hover,
@@ -423,7 +427,7 @@ select {
     min-height: 43px;
     justify-content: flex-start;
     padding-left: 32px;
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
 }
 
@@ -446,7 +450,7 @@ select {
     display: block;
     margin-bottom: 3px;
     color: var(--vermilion);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.2em;
 }
@@ -454,16 +458,17 @@ select {
 .content-title h2 {
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 31px;
+    font-size: 33px;
     line-height: 1.3;
 }
 
 .prose p {
     margin-bottom: 17px;
     color: #544941;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 2;
     text-align: justify;
+    text-indent: 2em;
 }
 
 .prose-lead {
@@ -487,7 +492,62 @@ select {
     margin-bottom: 18px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 25px;
+    font-size: 26px;
+}
+
+/* Leadership and academic committee */
+.member-section + .member-section {
+    margin-top: 56px;
+}
+
+.member-table-wrap {
+    overflow-x: auto;
+}
+
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 19px;
+    text-align: center;
+}
+
+/* Both tables share these widths so their columns line up. */
+.member-col-name { width: 12%; }
+.member-col-gender { width: 9%; }
+.member-col-title { width: 20%; }
+.member-col-role { width: 12%; }
+.member-col-unit { width: 47%; }
+
+.member-table thead th {
+    padding: 20px 16px;
+    background: #f4ebdd;
+    color: var(--brick);
+    font-family: "Songti SC", STSong, serif;
+    font-size: 21px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.member-table tbody th,
+.member-table td {
+    padding: 18px 16px;
+    color: #4a3f38;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.member-table tbody th {
+    color: var(--ink);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.member-table tbody tr:nth-child(even) {
+    background: #fbf7f0;
+}
+
+.member-table tbody tr:hover {
+    background: #f6ecdc;
 }
 
 /* Individual research direction pages */
@@ -496,9 +556,10 @@ select {
     border-left: 4px solid var(--gold);
     background: #fbf6ee;
     color: #544941;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 2;
     text-align: justify;
+    text-indent: 2em;
 }
 
 .direction-feature-image {
@@ -513,7 +574,7 @@ select {
     margin: 36px 0 20px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .project-grid {
@@ -535,18 +596,20 @@ select {
     margin-bottom: 10px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 1.5;
 }
 
 .project-grid p {
     color: var(--muted);
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.85;
+    text-indent: 2em;
 }
 
 .direction-note {
     margin-top: 26px;
+    text-indent: 2em;
 }
 
 .direction-stat-grid {
@@ -571,14 +634,14 @@ select {
 .direction-stat-grid strong {
     color: var(--brick);
     font-family: Georgia, serif;
-    font-size: 34px;
+    font-size: 36px;
     line-height: 1.2;
 }
 
 .direction-stat-grid span {
     margin-top: 7px;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* Direction and team grids */
@@ -607,7 +670,7 @@ select {
     margin-bottom: 17px;
     color: #b25c41;
     font-family: Georgia, serif;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 1;
 }
@@ -617,15 +680,16 @@ select {
     margin-bottom: 12px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
 .direction-page-card p,
 .team-card p {
     color: var(--muted);
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.85;
+    text-indent: 2em;
 }
 
 .direction-index-grid .direction-page-card {
@@ -652,7 +716,7 @@ select {
     border-radius: 999px;
     background: #fffaf2;
     color: #795345;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* Research group pages */
@@ -680,7 +744,7 @@ select {
     margin: 0 0 17px 1.4em;
     list-style: disc;
     color: #544941;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 2;
 }
 
@@ -697,6 +761,7 @@ select {
 
 .team-members p {
     margin-bottom: 8px;
+    text-indent: 0;
 }
 
 .team-photo {
@@ -761,14 +826,14 @@ select {
 .news-card time {
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .news-card h3 {
     margin-block: 9px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -776,7 +841,7 @@ select {
     display: -webkit-box;
     overflow: hidden;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.75;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
@@ -786,7 +851,7 @@ select {
     display: inline-block;
     margin-top: 13px;
     color: var(--brick);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .listing {
@@ -823,33 +888,33 @@ select {
 }
 
 .listing-date b {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
 }
 
 .listing-date small {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .listing-copy h3 {
     color: var(--ink);
     font-family: "Songti SC", STSong, serif;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 1.5;
 }
 
 .listing-copy p {
     margin-top: 7px;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.7;
 }
 
 .listing-arrow {
     color: #b58c74;
     font-family: Georgia, serif;
-    font-size: 27px;
+    font-size: 29px;
 }
 
 .featured-news {
@@ -882,14 +947,14 @@ select {
 .featured-news-copy time {
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .featured-news-copy h3 {
     margin-block: 10px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.5;
 }
 
@@ -900,7 +965,7 @@ select {
 .article-detail {
     max-width: 1050px;
     color: #544941;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 2;
 }
 
@@ -909,7 +974,7 @@ select {
     margin-bottom: 20px;
     color: var(--vermilion);
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .article-meta {
@@ -917,7 +982,7 @@ select {
     padding-bottom: 15px;
     border-bottom: 1px solid var(--line);
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -925,10 +990,28 @@ select {
     color: #403730;
 }
 
+/* Imported articles carry assorted inline indents (21pt to 168pt) from the
+   source CMS, so body paragraphs are normalised to a two-character indent.
+   Articles whose text runs larger than 20px set --indent on .original-content. */
 .original-content p {
     margin-bottom: 18px;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 2;
+    text-indent: var(--indent, 2em) !important;
+}
+
+.original-content p[style*="text-align:center" i],
+.original-content p[style*="text-align: center" i],
+.original-content p[style*="text-align:right" i],
+.original-content p[style*="text-align: right" i],
+.original-content td p,
+.original-content th p,
+.original-content .img-caption {
+    text-indent: 0 !important;
+}
+
+.original-content .img-caption {
+    text-align: center;
 }
 
 .original-content img {
@@ -961,7 +1044,7 @@ select {
     margin: 32px 0 14px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .article-detail ul {
@@ -1079,7 +1162,7 @@ a.person-photo:focus-visible img {
     background: linear-gradient(145deg, #f4e5cd, #ead0ae);
     color: var(--brick);
     font-family: "Songti SC", STSong, serif;
-    font-size: 64px;
+    font-size: 66px;
     font-weight: 700;
 }
 
@@ -1089,7 +1172,7 @@ a.person-photo:focus-visible img {
     padding-bottom: 12px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 25px;
+    font-size: 26px;
     line-height: 1.35;
 }
 
@@ -1112,7 +1195,7 @@ a.person-photo:focus-visible img {
 .person-card p {
     width: 100%;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.75;
 }
 
@@ -1122,7 +1205,7 @@ a.person-photo:focus-visible img {
 
 .person-card .person-title {
     color: #544941;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -1131,7 +1214,7 @@ a.person-photo:focus-visible img {
     max-width: 100%;
     margin-top: 10px;
     color: var(--brick);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.6;
 }
@@ -1172,7 +1255,7 @@ a.person-photo:focus-visible img {
     background: linear-gradient(145deg, #f4e5cd, #ead0ae);
     color: var(--brick);
     font-family: "Songti SC", STSong, serif;
-    font-size: 62px;
+    font-size: 64px;
     font-weight: 700;
 }
 
@@ -1180,7 +1263,7 @@ a.person-photo:focus-visible img {
     margin: 30px 0 10px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .person-profile p {
@@ -1190,7 +1273,7 @@ a.person-photo:focus-visible img {
 
 .profile-role {
     color: var(--vermilion) !important;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -1224,21 +1307,21 @@ a.person-photo:focus-visible img {
 
 .achievement-card time {
     color: var(--vermilion);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .achievement-card h3 {
     margin-top: 8px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 1.5;
 }
 
 .achievement-card p {
     margin-top: 8px;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* Publications */
@@ -1287,11 +1370,50 @@ a.person-photo:focus-visible img {
     background: var(--brick-deep);
 }
 
+.publication-group + .publication-group {
+    margin-top: 56px;
+}
+
+.publication-group[hidden] {
+    display: none;
+}
+
+.publication-group-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 14px;
+    margin-bottom: 18px;
+    padding-left: 16px;
+    border-left: 4px solid var(--gold);
+    color: var(--brick-deep);
+    font-family: "Songti SC", STSong, serif;
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.publication-group-title span {
+    color: var(--vermilion);
+    font-family: Georgia, serif;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.publication-group-count {
+    margin-left: auto;
+    color: var(--muted);
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 .publication-table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: separate;
     border-spacing: 0;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .publication-table:not(:has(.publication-item:not([hidden]))) {
@@ -1308,7 +1430,7 @@ a.person-photo:focus-visible img {
     box-shadow: 0 6px 12px rgba(71, 33, 21, 0.12);
     color: #fff;
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
     text-align: left;
     white-space: nowrap;
@@ -1320,12 +1442,14 @@ a.person-photo:focus-visible img {
     color: #1f1814;
     font-weight: 500;
     vertical-align: top;
+    overflow-wrap: break-word;
 }
 
+/* Fixed layout keeps the columns of the two direction tables aligned. */
 .publication-table th:nth-child(1) { width: 90px; }
 .publication-table th:nth-child(3) { width: 22%; }
-.publication-table th:nth-child(4) { width: 130px; }
-.publication-table th:nth-child(5) { width: 20%; }
+.publication-table th:nth-child(4) { width: 150px; }
+.publication-table th:nth-child(5) { width: 110px; }
 
 .publication-table tbody tr:hover {
     background: var(--paper);
@@ -1334,14 +1458,14 @@ a.person-photo:focus-visible img {
 .publication-year {
     color: var(--brick);
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
 }
 
 .publication-table .publication-title {
     color: #140e0b;
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
     line-height: 1.6;
 }
@@ -1349,7 +1473,7 @@ a.person-photo:focus-visible img {
 .result-count {
     margin-bottom: 15px;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* Global search */
@@ -1380,12 +1504,12 @@ a.person-photo:focus-visible img {
     margin-block: 4px;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .search-result p {
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* Empty video page */
@@ -1403,7 +1527,7 @@ a.person-photo:focus-visible img {
     display: block;
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .video-empty p {
@@ -1432,13 +1556,13 @@ a.person-photo:focus-visible img {
     padding: 16px 4px;
     border-bottom: 1px solid var(--line);
     color: var(--muted);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .video-feature figcaption strong {
     color: var(--brick-deep);
     font-family: "Songti SC", STSong, serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 /* Shared footer */
@@ -1469,7 +1593,7 @@ a.person-photo:focus-visible img {
     padding-bottom: 12px;
     color: #f6e7c8;
     font-family: "Songti SC", STSong, serif;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 0.08em;
 }
 
@@ -1486,7 +1610,7 @@ a.person-photo:focus-visible img {
 .portal-footer-contact p {
     margin-bottom: 10px;
     color: rgba(255, 243, 226, 0.82);
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .portal-footer-links {
@@ -1503,7 +1627,7 @@ a.person-photo:focus-visible img {
     padding: 11px 0;
     border-bottom: 1px solid rgba(255, 243, 226, 0.14);
     color: rgba(255, 243, 226, 0.86);
-    font-size: 17px;
+    font-size: 18px;
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -1536,7 +1660,7 @@ a.person-photo:focus-visible img {
     justify-content: space-between;
     gap: 20px;
     color: rgba(255, 243, 226, 0.56);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .portal-footer-bottom a {
@@ -1561,13 +1685,71 @@ a.person-photo:focus-visible img {
 }
 
 @media (max-width: 1100px) {
+    .portal-brand-copy strong {
+        font-size: 30px;
+    }
+
     .portal-brand-copy span {
-        font-size: 22px;
+        font-size: 23px;
     }
 
     .portal-nav-link {
         padding-inline: 12px;
+        font-size: 18px;
+    }
+
+    .member-table {
         font-size: 17px;
+    }
+
+    .member-table thead th {
+        padding: 16px 8px;
+        font-size: 18px;
+    }
+
+    .member-table tbody th,
+    .member-table td {
+        padding: 14px 8px;
+    }
+
+    .member-col-name { width: 17%; }
+    .member-col-gender { width: 13%; }
+    .member-col-title { width: 19%; }
+    .member-col-role { width: 17%; }
+    .member-col-unit { width: 34%; }
+
+    .publication-table {
+        font-size: 17px;
+    }
+
+    .publication-table th {
+        padding: 12px 10px;
+        font-size: 18px;
+    }
+
+    .publication-table td {
+        padding: 14px 10px;
+    }
+
+    .publication-table .publication-title,
+    .publication-year {
+        font-size: 19px;
+    }
+
+    .publication-table th:nth-child(1) { width: 70px; }
+    .publication-table th:nth-child(4) { width: 130px; }
+}
+
+/* Too narrow for the lab name on one line: break it after "智能处理"
+   (the <wbr> in the header markup) and keep the search button intact. */
+@media (min-width: 761px) and (max-width: 1100px) {
+    .portal-brand-copy span {
+        white-space: normal;
+        word-break: keep-all;
+    }
+
+    .portal-search-link {
+        flex-shrink: 0;
     }
 }
 
@@ -1590,12 +1772,12 @@ a.person-photo:focus-visible img {
     }
 
     .portal-brand-copy strong {
-        font-size: 21px;
+        font-size: 22px;
     }
 
     .portal-brand-copy span {
         max-width: 520px;
-        font-size: 20px;
+        font-size: 21px;
         letter-spacing: 0;
         white-space: normal;
     }
@@ -1640,7 +1822,7 @@ a.person-photo:focus-visible img {
 
     .portal-nav-link {
         min-height: 46px;
-        font-size: 16px;
+        font-size: 17px;
         white-space: normal;
         text-align: center;
     }
@@ -1655,7 +1837,7 @@ a.person-photo:focus-visible img {
     }
 
     .page-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .side-nav {
@@ -1715,6 +1897,21 @@ a.person-photo:focus-visible img {
 }
 
 @media (max-width: 620px) {
+    .member-table {
+        font-size: 15px;
+    }
+
+    .member-table thead th {
+        padding: 12px 6px;
+        font-size: 16px;
+    }
+
+    .member-table tbody th,
+    .member-table td {
+        padding: 12px 6px;
+        line-height: 1.5;
+    }
+
     .portal-utility .page-shell > span {
         display: none;
     }
@@ -1737,12 +1934,12 @@ a.person-photo:focus-visible img {
     }
 
     .portal-brand-copy strong {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .portal-brand-copy span {
         max-width: 255px;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .portal-search-link {
@@ -1777,7 +1974,7 @@ a.person-photo:focus-visible img {
     .profile-mark {
         width: 110px;
         height: 132px;
-        font-size: 48px;
+        font-size: 50px;
     }
 
     .direction-feature-image {
@@ -1790,7 +1987,7 @@ a.person-photo:focus-visible img {
     }
 
     .listing-copy h3 {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .listing-copy p {

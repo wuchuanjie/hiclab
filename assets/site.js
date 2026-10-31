@@ -11,6 +11,7 @@
             href: "lab-intro.html",
             children: [
                 { label: "实验室简介", href: "lab-intro.html" },
+                { label: "实验室领导及学术委员会", href: "lab-leadership.html" },
                 { label: "研究方向", href: "research-directions.html" }
             ]
         },
@@ -64,16 +65,17 @@
     const searchIndex = [
         { category: "网站首页", title: "实验室网站首页", text: "新闻动态、通知公告、实验室简介与两个研究方向。", href: "index.html" },
         { category: "实验室概况", title: "实验室简介", text: "2021年5月由文化和旅游部批准成立，依托厦门大学建设。", href: "lab-intro.html" },
+        { category: "实验室概况", title: "实验室领导及学术委员会", text: "实验室主任史晓东，副主任姚俊峰、王量量，秘书曾华琳；学术委员会主任郭宗明，副主任姚俊峰，委员周昌乐、赵铁军、宗成庆、戴志坚、董军、徐迎庆、冯结青、郭海鞍、王健、盘剑、厉震林、王绍森、史晓东、王量量等。", href: "lab-leadership.html" },
         { category: "实验室概况", title: "研究方向", text: "实验室两个核心研究方向总览。", href: "research-directions.html" },
         { category: "研究方向", title: "闽台非遗文化数字化保护", text: "多模态采集、数字建档、三维重建、数字资产管理、长期保存与公共展示。", href: "research-direction-digital-protection.html" },
         { category: "研究方向", title: "闽台非遗文化智能处理", text: "方言语音、表演动作、文化知识与多模态内容的智能分析、生成和交互。", href: "research-direction-intelligent-processing.html" },
         { category: "实验室动态", title: "新闻动态", text: "实验室项目、会议、媒体报道、调研与两岸民宿标准等新闻。", href: "news.html" },
         { category: "实验室动态", title: "通知公告", text: "会议程序册与学术年会通知。", href: "notices.html" },
-        { category: "研究团队", title: "研究团队总览", text: "实验室各研究组介绍与成员。", href: "teams.html" },
+        { category: "研究团队", title: "研究团队总览", text: "实验室各研究团队介绍与成员。", href: "teams.html" },
         { category: "研究团队", title: "数字媒体计算中心", text: "姚俊峰教授负责，非遗文化数字化与知识组织、非遗文化大模型与方言处理、非遗智能展演与交互传播。", href: "teams/digital-media-computing.html" },
-        { category: "研究团队", title: "自然语言处理课题组", text: "史晓东、陈毅东教授团队，机器翻译与多语言处理、低资源语言处理、多模态建模与处理、语言文化计算与自然语言处理应用。", href: "teams/natural-language-processing.html" },
+        { category: "研究团队", title: "自然语言处理课题组", text: "史晓东、陈毅东教授课题组，机器翻译与多语言处理、低资源语言处理、多模态建模与处理、语言文化计算与自然语言处理应用。", href: "teams/natural-language-processing.html" },
         { category: "研究团队", title: "智能计算与物理仿真课题组", text: "智能优化、多物理场神经算子、物理信息驱动的生成模型与多媒体学习。", href: "teams/intelligent-computing-simulation.html" },
-        { category: "研究团队", title: "Human+课题组", text: "郭诗辉教授团队，智能柔性穿戴人体动作捕捉、自然人机交互与具身智能。", href: "teams/human-plus.html" },
+        { category: "研究团队", title: "Human+课题组", text: "郭诗辉教授课题组，智能柔性穿戴人体动作捕捉、自然人机交互与具身智能。", href: "teams/human-plus.html" },
         { category: "研究团队", title: "建筑技艺数字化保护与营建智慧解析课题组", text: "传统建筑营造智慧、空间形制、聚落形态与遗产活化利用，数字测绘、三维重建、BIM、知识图谱与数字孪生。", href: "teams/architectural-heritage.html" },
         { category: "研究团队", title: "闽台传统建筑数字化与气候适应性研究课题组", text: "石峰教授领衔，传统建筑谱系、气候适应性、建筑性能模拟与文化遗产保护更新。", href: "teams/climate-adaptive-architecture.html" },
         { category: "人才队伍", title: "教授", text: "实验室教授队伍。", href: "people.html#professor" },
@@ -153,7 +155,7 @@
                 <div class="page-shell portal-brand-row">
                     <a class="portal-brand" href="${root}index.html" aria-label="返回网站首页">
                         <img src="${root}assets/hic-lab-logo.png" alt="" width="100" height="100">
-                        <span class="portal-brand-copy"><strong>厦门大学</strong><span>闽台非遗文化数字化保护与智能处理文化和旅游部重点实验室</span></span>
+                        <span class="portal-brand-copy"><strong>厦门大学</strong><span>闽台非遗文化数字化保护与智能处理<wbr>文化和旅游部重点实验室</span></span>
                     </a>
                     <a class="portal-search-link" href="${root}search.html">${icon('<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/>')}<span>全站搜索</span></a>
                 </div>
@@ -246,6 +248,7 @@
         const year = form.querySelector("[name=year]");
         const input = form.querySelector("[name=keyword]");
         const items = Array.from(document.querySelectorAll(".publication-item"));
+        const groups = Array.from(document.querySelectorAll("[data-publication-group]"));
         const count = document.querySelector("[data-publication-count]");
         const empty = document.querySelector("[data-publication-empty]");
 
@@ -258,6 +261,12 @@
                 const keywordMatch = !keyword || item.textContent.toLowerCase().includes(keyword);
                 item.hidden = !(yearMatch && keywordMatch);
                 if (!item.hidden) visible += 1;
+            });
+            groups.forEach(function (group) {
+                const groupVisible = group.querySelectorAll(".publication-item:not([hidden])").length;
+                group.hidden = groupVisible === 0;
+                const groupCount = group.querySelector("[data-publication-group-count]");
+                if (groupCount) groupCount.textContent = `${groupVisible} 篇`;
             });
             count.textContent = `共找到 ${visible} 条记录`;
             empty.hidden = visible !== 0;

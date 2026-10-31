@@ -22,6 +22,16 @@
         "/tmp/staged-site"
       ],
       "port": 8124
+    },
+    {
+      "name": "site-alt",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8125"
+      ],
+      "port": 8125
     }
   ]
 }
