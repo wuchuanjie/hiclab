@@ -1324,6 +1324,72 @@ a.person-photo:focus-visible img {
     font-size: 17px;
 }
 
+/* Award table, styled like the publication table */
+.achievement-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 19px;
+}
+
+.achievement-table th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 14px 16px;
+    border-bottom: 3px solid var(--gold);
+    background: var(--brick);
+    box-shadow: 0 6px 12px rgba(71, 33, 21, 0.12);
+    color: #fff;
+    font-family: "Songti SC", STSong, serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.achievement-table td {
+    padding: 16px;
+    border-bottom: 1px solid var(--line);
+    color: #1f1814;
+    font-weight: 500;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+.achievement-table th:nth-child(2) { width: 150px; }
+.achievement-table th:nth-child(3) { width: 200px; }
+
+.achievement-table tbody tr:hover {
+    background: var(--paper);
+}
+
+.achievement-time {
+    color: var(--brick);
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.achievement-table .achievement-name {
+    color: #140e0b;
+    font-family: "Songti SC", STSong, serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.achievement-note {
+    display: block;
+    margin-top: 6px;
+    color: var(--muted);
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
 /* Publications */
 .publication-tools,
 .site-search-form {
@@ -2059,5 +2125,34 @@ a.person-photo:focus-visible img {
     *::before,
     *::after {
         transition-duration: 0.01ms !important;
+    }
+}
+
+/* Narrow screens: stack award rows as cards, like the publication list */
+@media (max-width: 760px) {
+    .achievement-table thead {
+        display: none;
+    }
+
+    .achievement-table,
+    .achievement-table tbody,
+    .achievement-table tr,
+    .achievement-table td {
+        display: block;
+    }
+
+    .achievement-table tr {
+        padding-block: 14px;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .achievement-table td {
+        padding: 2px 0;
+        border-bottom: 0;
+    }
+
+    .achievement-table td:not(.achievement-time):not(.achievement-name)::before {
+        content: attr(data-label) "：";
+        color: var(--muted);
     }
 }
