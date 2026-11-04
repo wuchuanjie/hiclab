@@ -114,20 +114,20 @@
         { category: "人才队伍", title: "石峰", text: "教授，绿色建筑的气候响应设计，亚热带滨海城市环境研究，闽台传统建筑谱系研究", href: "people.html#person-shi-feng" },
         { category: "人才队伍", title: "江敏", text: "教授，学习驱动的演化优化和非遗材料数智仿真与设计", href: "people.html#person-jiang-min" },
         { category: "人才队伍", title: "郭诗辉", text: "教授，基于智能传感服装的人体运动捕捉、分析与交互，具身智能", href: "people.html#person-guo-shihui" },
-        { category: "人才队伍", title: "陈毅东", text: "教授，人工智能，自然语言处理，机器翻译，手语翻译，信息抽取，情感分析", href: "people.html#person-chen-yidong" },
-        { category: "人才队伍", title: "王晓黎", text: "副教授；硕士生导师，图数据索引与查询、医疗健康大数据分析、大语言模型及其领域应用；知识图谱与问答系统。", href: "people.html#person-wang-xiaoli" },
+        { category: "人才队伍", title: "陈毅东", text: "教授，人工智能，自然语言处理", href: "people.html#person-chen-yidong" },
+        { category: "人才队伍", title: "王晓黎", text: "副教授；硕士生导师，非遗文化数据分析、非遗文化知识图谱与问答系统", href: "people.html#person-wang-xiaoli" },
         { category: "人才队伍", title: "洪清启", text: "副教授；博士生导师，计算机视觉，文化遗产三维重建", href: "people.html#person-hong-qingqi" },
         { category: "人才队伍", title: "龙飞", text: "副教授；硕士生导师，计算机视觉，非遗表演智能感知", href: "people.html#person-long-fei" },
-        { category: "人才队伍", title: "佘莹莹", text: "副教授；硕士生导师，人机交互、虚拟现实、社交机器人、跨媒体智能、游戏开发。", href: "people.html#person-she-yingying" },
-        { category: "人才队伍", title: "陈俐燕", text: "副教授；硕士生导师，影视 AI 技术（AIGC、智能体）、虚拟现实（AR、VR、XR）、三维动画、数字人、语音翻译与合成。", href: "people.html#person-chen-liyan" },
-        { category: "人才队伍", title: "杨雅正", text: "助理教授；硕士生导师，自然语言处理、大模型、非结构化数据预训练、语音大模型。", href: "people.html#person-yang-yazheng" },
+        { category: "人才队伍", title: "佘莹莹", text: "副教授；硕士生导师，跨媒体智能与虚拟现实技术，非遗数字化保护技术，表演机器人技术", href: "people.html#person-she-yingying" },
+        { category: "人才队伍", title: "陈俐燕", text: "副教授；硕士生导师，虚拟现实，非遗影视AI技术", href: "people.html#person-chen-liyan" },
+        { category: "人才队伍", title: "杨雅正", text: "助理教授；硕士生导师，自然语言处理，闽台非遗文化大模型", href: "people.html#person-yang-yazheng" },
         { category: "人才队伍", title: "吴灈杭", text: "助理教授，城乡历史文化遗产保护；闽台海洋商贸遗产保护；历史社区更新", href: "people.html#person-wu-quhang" },
         { category: "人才队伍", title: "张园林", text: "助理教授，乡村生活空间转型，乡村人居环境与休闲空间，乡村治理等", href: "people.html#person-zhang-yuanlin" },
         { category: "人才队伍", title: "王贞众", text: "助理教授，学习驱动的演化优化和非遗材料数智仿真与设计", href: "people.html#person-wang-zhenzhong" },
         { category: "人才队伍", title: "黄健明", text: "博士后，生成式人工智能，闽台非遗数字化", href: "people.html#person-huang-jianming" },
-        { category: "人才队伍", title: "张延坤", text: "工程师，软件工程方法、软件测试；软件工程与数字媒体技术实验教学、实验室仪器设备使用及维护。", href: "people.html#person-zhang-yankun" },
+        { category: "人才队伍", title: "张延坤", text: "工程师，软件工程方法、软件测试。", href: "people.html#person-zhang-yankun" },
         { category: "人才队伍", title: "陈心怡", text: "助理教授，传统建筑与天文历法、传统营建智慧的当代转译与应用、闽南地域建筑", href: "people.html#person-chen-xinyi" },
-        { category: "人才队伍", title: "曾华琳", text: "讲师，自然语言理解与生成、多模态机器翻译、语音大模型及可信推理。", href: "people.html#person-zeng-hualin" }
+        { category: "人才队伍", title: "曾华琳", text: "讲师，自然语言处理，闽台非遗文化大模型", href: "people.html#person-zeng-hualin" }
     ];
 
     function icon(path) {
